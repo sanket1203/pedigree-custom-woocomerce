@@ -42,7 +42,7 @@ class WC_Vendors_Simple_Auctions {
 	/**
 	 * Initialize the plugin public actions.
 	 */
-	private function __construct() {
+	private function __construct() { 
 
 		// Load plugin text domain
 		add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
