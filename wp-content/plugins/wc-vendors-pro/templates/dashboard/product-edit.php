@@ -29,7 +29,11 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 ?>
 
 <h2><?php echo $title; ?></h2>
-
+<style>
+.sexlabel{
+	padding:0px 10px 0px 24px;font-size: 18px;margin-top: -8px;float: left;
+}
+</style>
 <!-- Product Edit Form -->
 <form method="post" action="" id="wcv-product-edit" class="wcv-form wcv-formvalidator"> 
 
@@ -37,6 +41,60 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 	<div class="wcv-product-basic wcv-product"> 
 		<!-- Product Title -->
 		<?php WCVendors_Pro_Product_Form::title( $object_id, $product_title ); ?>
+		  <script>
+			jQuery(function($){
+				$("#_auction_date_of_birth").datepicker({ changeYear: true});
+			});
+		 </script>';
+		<?php
+		
+		// <!-- KC-new field animal id tag -->
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_reserved_price', array(
+	            'post_id'               => $object_id,
+	            'id'                    => '_auction_animal_id_tag',
+	            'label'                 => __( 'Animal id Tag', 'wc_simple_auctions' ),
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100">',
+	            'wrapper_end'           =>  '</div>',
+				'custom_attributes' => array(
+					'required' => "",
+						),
+					) )
+				);
+		echo '<div class="all-50 small-100">
+		<div class="control-group">
+				<label for="_auction_animal_sex" class="">Sex* </label>
+				<div class="control">
+					<div style="display:inline-block;padding: 5px 0 5px 4px;">
+					<input style="width:auto;" type="radio" id="_auction_animal_sex_male" name="_auction_animal_sex" value="male" checked>
+					<label for="_auction_animal_sex_male" class="sexlabel">Male</label>
+					</div>
+					<div style="display:inline-block;padding: 5px 0 5px 4px;">
+					<input style="width:auto;" type="radio" id="_auction_animal_sex_female" name="_auction_animal_sex" value="female">
+					<lable for="_auction_animal_sex_female" class="sexlabel">Female</label>
+					</div>
+				</div>
+		</div></div></div>';	
+		
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_date_of_birth', array( 
+			'post_id'		=> $object_id, 
+			'id' 			=> '_auction_date_of_birth', 
+			'label' 		=> __( 'Date Of Birth', 'wcvendors-pro-simple-auctions' ), 
+			'class'			=> 'wcv-datepicker', 
+			'placeholder'	=> __( '', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD',  
+			'wrapper_start' => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-100 small-100 ">',
+			'wrapper_end' 	=> '</div></div>', 
+			'custom_attributes' => array(
+				'required' => "",
+				'maxlenth' 	=> '10', 
+				'pattern' 	=> '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])'
+				),
+			) )
+		);				
+		?>
+		<!-- KC-new field end -->
+		
+		
 		<!-- Product Description -->
 		<?php WCVendors_Pro_Product_Form::description( $object_id, $product_description );  ?>
 		<!-- Product Short Description -->
@@ -55,6 +113,24 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 			<?php do_action( 'wcv_after_media', $object_id ); ?>
 
 		</div>
+	</div>
+	
+		<!-- KC-new field youtube -->
+	<div class="all-100">
+		<?php
+		
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_animal_video', array( 
+			'post_id'		=> $object_id, 
+			'id' 			=> '_auction_animal_video', 
+			'type' 				=> 'url', 
+			'label' 		=> __( 'Add Your listing Youtube/Vimeo Url Here ', 'wcvendors-pro-simple-auctions' ),
+			'custom_attributes' => array(
+				'pattern' 	=> 'https?://.+'
+				),
+			) )
+		);
+		
+		?>	
 	</div>
 
 	<hr />

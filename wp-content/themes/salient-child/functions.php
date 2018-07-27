@@ -28,5 +28,404 @@ endif;
 
 }
 
+/*KC-new fields general tab */
+add_action( 'woocommerce_product_options_general_product_data', 'woo_add_custom_general_fields' );
+function woo_add_custom_general_fields() {
 
+  global $woocommerce, $post;
+  echo '
+    <script>
+        jQuery(function($){
+            $("#_auction_date_of_birth").datepicker({ changeYear: true,dateFormat: "yy-mm-dd"});
+			 //$("#_auction_dates_from").datepicker({ changeYear: true});
+			  //$("#_auction_dates_to").datepicker({ changeYear: true});
+        });
+    </script>';
+  echo '<div class="options_group">';	  
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_animal_id_tag', 
+				'label'       => __( 'Animal id Tag', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the custom value here.', 'woocommerce' ) 
+			)
+		);
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_date_of_birth', 
+				'label'       => __( 'Date of Birth', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => 'datetimepicker',
+				'description' => __( 'Select the date of birth.', 'woocommerce' ) 
+			)
+		);
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_animal_video', 
+				'label'       => __( 'Add Your listing Youtube/Vimeo Url Here', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the animal tag id.', 'woocommerce' ) 
+			)
+		);
+		woocommerce_wp_radio( 
+			array( 
+				'id'          => '_auction_animal_sex', 
+				'label'       => __( 'Sex', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'options' =>  array( 'male' => __( 'Male', 'woocommerce' ),
+							'female' => __( 'Female', 'woocommerce' ),
+							 ),
+				'description' => __( 'Select Gender.', 'woocommerce' ) 
+			)
+		);
+		  echo '</div>';
+}
+
+add_action( 'woocommerce_process_product_meta', 'woo_add_custom_general_fields_save' );
+function woo_add_custom_general_fields_save( $post_id ){
+	$_auction_animal_id_tag = $_POST['_auction_animal_id_tag'];
+	if( !empty( $_auction_animal_id_tag ) )
+		update_post_meta( $post_id, '_auction_animal_id_tag', esc_attr( $_auction_animal_id_tag ) );
+	
+	$_auction_date_of_birth = $_POST['_auction_date_of_birth'];
+	if( !empty( $_auction_date_of_birth ) )
+		update_post_meta( $post_id, '_auction_date_of_birth', esc_attr( $_auction_date_of_birth ) );
+	
+	$_auction_animal_video = $_POST['_auction_animal_video'];
+	if( !empty( $_auction_animal_video ) )
+		update_post_meta( $post_id, '_auction_animal_video', esc_attr( $_auction_animal_video ) );
+	
+	$_auction_animal_sex = $_POST['_auction_animal_sex'];
+	if( !empty( $_auction_animal_sex ) )
+		update_post_meta( $post_id, '_auction_animal_sex', esc_attr( $_auction_animal_sex ) );
+	
+	$_auction_birth_weight = $_POST['_auction_birth_weight'];
+	if( !empty( $_auction_birth_weight ) )
+		update_post_meta( $post_id, '_auction_birth_weight', esc_attr( $_auction_birth_weight ) );
+	
+	$_auction_weaning_weight = $_POST['_auction_weaning_weight'];
+	if( !empty( $_auction_weaning_weight ) )
+		update_post_meta( $post_id, '_auction_weaning_weight', esc_attr( $_auction_weaning_weight ) );
+	
+	$_auction_yearling_weight = $_POST['_auction_yearling_weight'];
+	if( !empty( $_auction_yearling_weight ) )
+		update_post_meta( $post_id, '_auction_yearling_weight', esc_attr( $_auction_yearling_weight ) );
+	
+	$_auction_expecated_sale_weight = $_POST['_auction_expecated_sale_weight'];
+	if( !empty( $_auction_expecated_sale_weight ) )
+		update_post_meta( $post_id, '_auction_expecated_sale_weight', esc_attr( $_auction_expecated_sale_weight ) );
+	
+	$_auction_average_daily_gain_weight = $_POST['_auction_average_daily_gain_weight'];
+	if( !empty( $_auction_expecated_sale_weight ) )
+		update_post_meta( $post_id, '_auction_average_daily_gain_weight', esc_attr( $_auction_average_daily_gain_weight ) );
+
+	$_auction_sire = $_POST['_auction_sire'];
+	if( !empty( $_auction_sire ) )
+		update_post_meta( $post_id, '_auction_sire', esc_attr( $_auction_sire ) );
+	$_auction_second_genration_one = $_POST['_auction_second_genration_one'];
+	if( !empty( $_auction_second_genration_one ) )
+		update_post_meta( $post_id, '_auction_second_genration_one', esc_attr( $_auction_second_genration_one ) );
+	
+	$_auction_second_genration_two = $_POST['_auction_second_genration_two'];
+	if( !empty( $_auction_second_genration_two ) )
+		update_post_meta( $post_id, '_auction_second_genration_two', esc_attr( $_auction_second_genration_two ) );
+	
+	$_auction_second_genration_two = $_POST['_auction_second_genration_two'];
+	if( !empty( $_auction_second_genration_two ) )
+		update_post_meta( $post_id, '_auction_second_genration_two', esc_attr( $_auction_second_genration_two ) );
+	
+	$_auction_third_genration_one = $_POST['_auction_third_genration_one'];
+	if( !empty( $_auction_third_genration_one ) )
+		update_post_meta( $post_id, '_auction_third_genration_one', esc_attr( $_auction_third_genration_one ) );
+	
+	$_auction_third_genration_two = $_POST['_auction_third_genration_two'];
+	if( !empty( $_auction_third_genration_two ) )
+		update_post_meta( $post_id, '_auction_third_genration_two', esc_attr( $_auction_third_genration_two ) );
+	
+	$_auction_third_genration_three = $_POST['_auction_third_genration_three'];
+	if( !empty( $_auction_third_genration_three ) )
+		update_post_meta( $post_id, '_auction_third_genration_three', esc_attr( $_auction_third_genration_three ) );
+	
+	$_auction_third_genration_four = $_POST['_auction_third_genration_four'];
+	if( !empty( $_auction_third_genration_four ) )
+		update_post_meta( $post_id, '_auction_third_genration_four', esc_attr( $_auction_third_genration_four ) );
+	
+	$_auction_dam = $_POST['_auction_dam'];
+	if( !empty( $_auction_dam ) )
+		update_post_meta( $post_id, '_auction_dam', esc_attr( $_auction_dam ) );
+	
+	$_auction_dam_second_genration_one = $_POST['_auction_dam_second_genration_one'];
+	if( !empty( $_auction_dam_second_genration_one ) )
+		update_post_meta( $post_id, '_auction_dam_second_genration_one', esc_attr( $_auction_dam_second_genration_one ) );
+	
+	$_auction_second_genration_two = $_POST['_auction_second_genration_two'];
+	if( !empty( $_auction_second_genration_two ) )
+		update_post_meta( $post_id, '_auction_second_genration_two', esc_attr( $_auction_second_genration_two ) );
+	
+	$_auction_dam_third_genration_one = $_POST['_auction_dam_third_genration_one'];
+	if( !empty( $_auction_dam_third_genration_one ) )
+		update_post_meta( $post_id, '_auction_dam_third_genration_one', esc_attr( $_auction_dam_third_genration_one ) );
+	
+	$_auction_dam_third_genration_two = $_POST['_auction_dam_third_genration_two'];
+	if( !empty( $_auction_dam_third_genration_two ) )
+		update_post_meta( $post_id, '_auction_dam_third_genration_two', esc_attr( $_auction_dam_third_genration_two ) );
+	
+	$_auction_dam_third_genration_three = $_POST['_auction_dam_third_genration_three'];
+	if( !empty( $_auction_dam_third_genration_three ) )
+		update_post_meta( $post_id, '_auction_dam_third_genration_three', esc_attr( $_auction_dam_third_genration_three ) );
+
+	$_auction_dam_third_genration_four = $_POST['_auction_dam_third_genration_four'];
+	if( !empty( $_auction_dam_third_genration_four ) )
+		update_post_meta( $post_id, '_auction_dam_third_genration_four', esc_attr( $_auction_dam_third_genration_four ) );	
+	
+
+}
+/*KC-new Aution tab */
+add_action( 'woocommerce_product_options_auction', 'woo_add_custom_autions_fields' );
+function woo_add_custom_autions_fields() {
+
+  global $woocommerce, $post;		
+	echo '<div class="options_group">';	
+		echo "<h3 style='padding-left:10px;'>ICBF* Verified Weight</h3>";
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_birth_weight', 
+				'label'       => __( 'Birth Weight', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the Birth Weight.', 'woocommerce' ) 
+			)
+		);
+		
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_weaning_weight', 
+				'label'       => __( 'Weaning Weight', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the Weaning Weight.', 'woocommerce' ) 
+			)
+		);
+		
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_yearling_weight', 
+				'label'       => __( 'Yearling Weight', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the Yearling Weight.', 'woocommerce' ) 
+			)
+		);
+		echo "<h3 style='padding-left:10px;'>Weight Predictor</h3>";
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_expecated_sale_weight', 
+				'label'       => __( 'Expected Sale Weight', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the Expected Sale Weight.', 'woocommerce' ) 
+			)
+		);
+		
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_average_daily_gain_weight', 
+				'label'       => __( 'Average Daily Gain', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the Average Daily Gain.', 'woocommerce' ) 
+			)
+		);
+		echo "<h3 style='padding-left:10px;'>Bloodline</h3>";
+		echo "<h4 style='padding-left:10px;'>Sire</h4>";
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_sire', 
+				'label'       => __( 'Sire', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_second_genration_one', 
+				'label'       => __( '2nd Generation text one', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_second_genration_two', 
+				'label'       => __( '2nd Generation text two', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_third_genration_one', 
+				'label'       => __( '3rd Generation text one', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_third_genration_two', 
+				'label'       => __( '3rd Generation text two', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_third_genration_three', 
+				'label'       => __( '3rd Generation text three', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_third_genration_four', 
+				'label'       => __( '3rd Generation text four', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		
+		echo "<h4 style='padding-left:10px;'>Dam</h4>";
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_dam', 
+				'label'       => __( 'Dam', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_dam_second_genration_one', 
+				'label'       => __( '2nd Generation text one', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_second_genration_two', 
+				'label'       => __( '2nd Generation text two', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+	
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_dam_third_genration_one', 
+				'label'       => __( '3rd Generation text one', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_dam_third_genration_two', 
+				'label'       => __( '3rd Generation text two', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_dam_third_genration_three', 
+				'label'       => __( '3rd Generation text three', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		woocommerce_wp_text_input( 
+			array( 
+				'id'          => '_auction_dam_third_genration_four', 
+				'label'       => __( '3rd Generation text four', 'woocommerce' ), 
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'class'	 	  => '',
+				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
+			)
+		);
+		
+		
+  
+  echo '</div>';
+	
+}
+function getYoutubeEmbedUrl($url)
+{
+   if(strpos($url, 'vimeo.com/') !== false) {
+        //it is Vimeo video
+        $videoId = explode("vimeo.com/",$url)[1];
+        if(strpos($videoId, '&') !== false){
+            $videoId = explode("&",$videoId)[0];
+        }
+        $finalUrl.='https://player.vimeo.com/video/'.$videoId;
+    }else if(strpos($url, 'youtube.com/') !== false) {
+        //it is Youtube video
+        $videoId = explode("v=",$url)[1];
+        if(strpos($videoId, '&') !== false){
+            $videoId = explode("&",$videoId)[0];
+        }
+        $finalUrl.='https://www.youtube.com/embed/'.$videoId;
+    }else if(strpos($url, 'youtu.be/') !== false){
+        //it is Youtube video
+        $videoId = explode("youtu.be/",$url)[1];
+        if(strpos($videoId, '&') !== false){
+            $videoId = explode("&",$videoId)[0];
+        }
+        $finalUrl.='https://www.youtube.com/embed/'.$videoId;
+    }
+	return $finalUrl;
+}
 ?>

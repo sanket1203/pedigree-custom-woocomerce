@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 if ( ! class_exists( 'WC_Vendors_Simple_Auctions' ) ) :
 
-class WC_Vendors_Simple_Auctions {
+class WC_Vendors_Simple_Auctions { 
 
 	/**
 	 * Plugin version.
@@ -42,7 +42,7 @@ class WC_Vendors_Simple_Auctions {
 	/**
 	 * Initialize the plugin public actions.
 	 */
-	private function __construct() { 
+	private function __construct() {
 
 		// Load plugin text domain
 		add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
@@ -130,6 +130,17 @@ class WC_Vendors_Simple_Auctions {
 		$product_type = empty( $_POST['product-type'] ) ? 'simple' : sanitize_title( stripslashes( $_POST[ 'product-type' ] ) );
 		
 		if ( $product_type == 'auction' ) {
+			
+			$post_id = $_POST['post_id'];
+			$post_content = $_POST['post_content'];
+			if(empty($post_content)){
+				$post_content = "&nbsp;";
+			}
+			$my_post = array(
+  		      'ID' =>  $post_id,
+			  'post_content'  => $post_content,
+			);
+			wp_update_post( $my_post );
 
 		 	update_post_meta( $post_id, '_manage_stock', 'yes'  );
 		 	update_post_meta( $post_id, '_stock', '1'  );
@@ -167,8 +178,8 @@ class WC_Vendors_Simple_Auctions {
 	        
 	        if(isset($_POST['_relist_auction_dates_from']) && isset($_POST['_relist_auction_dates_to']) && !empty($_POST['_relist_auction_dates_from']) && !empty($_POST['_relist_auction_dates_to']) ){
 	           $this->do_relist($post_id, $_POST['_relist_auction_dates_from'], $_POST['_relist_auction_dates_to']);
-	            
 	        }
+			
 	        if (isset($_POST['_auction_automatic_relist']))
 	        	update_post_meta( $post_id, '_auction_automatic_relist', stripslashes( $_POST['_auction_automatic_relist'] ) );
 	        if (isset($_POST['_auction_relist_fail_time']))
@@ -177,6 +188,80 @@ class WC_Vendors_Simple_Auctions {
 				update_post_meta( $post_id, '_auction_relist_not_paid_time', stripslashes( $_POST['_auction_relist_not_paid_time'] ) );
 			if (isset($_POST['_auction_relist_duration']))
 				update_post_meta( $post_id, '_auction_relist_duration', stripslashes( $_POST['_auction_relist_duration'] ) );
+	    	
+			
+			/////KC-new fields add by kc
+			if (isset($_POST['_auction_animal_video']))
+				update_post_meta( $post_id, '_auction_animal_video', stripslashes( $_POST['_auction_animal_video'] ) );
+			
+			if (isset($_POST['_auction_animal_id_tag']))
+				update_post_meta( $post_id, '_auction_animal_id_tag', stripslashes( $_POST['_auction_animal_id_tag'] ) );
+			if (isset($_POST['_auction_animal_sex']))
+				update_post_meta( $post_id, '_auction_animal_sex', stripslashes( $_POST['_auction_animal_sex'] ) );
+			if (isset($_POST['_auction_date_of_birth']))
+				update_post_meta( $post_id, '_auction_date_of_birth', stripslashes( $_POST['_auction_date_of_birth'] ) );
+			
+			if (isset($_POST['_auction_birth_weight']))
+				update_post_meta( $post_id, '_auction_birth_weight', stripslashes( $_POST['_auction_birth_weight'] ) );
+	    	
+			if (isset($_POST['_auction_weaning_weight']))
+				update_post_meta( $post_id, '_auction_weaning_weight', stripslashes( $_POST['_auction_weaning_weight'] ) );
+	    	
+			if (isset($_POST['_auction_yearling_weight']))
+				update_post_meta( $post_id, '_auction_yearling_weight', stripslashes( $_POST['_auction_yearling_weight'] ) );
+	    	
+			if (isset($_POST['_auction_yearling_weight']))
+				update_post_meta( $post_id, '_auction_yearling_weight', stripslashes( $_POST['_auction_yearling_weight'] ) );
+	    	
+			if (isset($_POST['_auction_expecated_sale_weight']))
+				update_post_meta( $post_id, '_auction_expecated_sale_weight', stripslashes( $_POST['_auction_expecated_sale_weight'] ) );
+			
+			if (isset($_POST['_auction_average_daily_gain_weight']))
+				update_post_meta( $post_id, '_auction_average_daily_gain_weight', stripslashes( $_POST['_auction_average_daily_gain_weight'] ) );
+			
+			
+			if (isset($_POST['_auction_sire']))
+				update_post_meta( $post_id, '_auction_sire', stripslashes( $_POST['_auction_sire'] ) );
+			
+			if (isset($_POST['_auction_second_genration_one']))
+				update_post_meta( $post_id, '_auction_second_genration_one', stripslashes( $_POST['_auction_second_genration_one'] ) );
+			
+			if (isset($_POST['_auction_second_genration_two']))
+				update_post_meta( $post_id, '_auction_second_genration_two', stripslashes( $_POST['_auction_second_genration_two'] ) );
+			
+			if (isset($_POST['_auction_third_genration_one']))
+				update_post_meta( $post_id, '_auction_third_genration_one', stripslashes( $_POST['_auction_third_genration_one'] ) );
+			
+			if (isset($_POST['_auction_third_genration_two']))
+				update_post_meta( $post_id, '_auction_third_genration_two', stripslashes( $_POST['_auction_third_genration_two'] ) );
+			
+			if (isset($_POST['_auction_third_genration_three']))
+				update_post_meta( $post_id, '_auction_third_genration_three', stripslashes( $_POST['_auction_third_genration_three'] ) );
+			if (isset($_POST['_auction_third_genration_four']))
+				update_post_meta( $post_id, '_auction_third_genration_four', stripslashes( $_POST['_auction_third_genration_four'] ) );
+			if (isset($_POST['_auction_sire_image']))
+				update_post_meta( $post_id, '_auction_sire_image', stripslashes( $_POST['_auction_sire_image'] ) );
+
+			////dam
+			if (isset($_POST['_auction_dam']))
+				update_post_meta( $post_id, '_auction_dam', stripslashes( $_POST['_auction_dam'] ) );
+			if (isset($_POST['_auction_dam_second_genration_one']))
+				update_post_meta( $post_id, '_auction_dam_second_genration_one', stripslashes( $_POST['_auction_dam_second_genration_one'] ) );
+			if (isset($_POST['_auction_dam_second_genration_two']))
+				update_post_meta( $post_id, '_auction_dam_second_genration_two', stripslashes( $_POST['_auction_dam_second_genration_two'] ) );
+			if (isset($_POST['_auction_dam_third_genration_one']))
+				update_post_meta( $post_id, '_auction_dam_third_genration_one', stripslashes( $_POST['_auction_dam_third_genration_one'] ) );
+			if (isset($_POST['_auction_dam_third_genration_two']))
+				update_post_meta( $post_id, '_auction_dam_third_genration_two', stripslashes( $_POST['_auction_dam_third_genration_two'] ) );
+			if (isset($_POST['_auction_dam_third_genration_three']))
+				update_post_meta( $post_id, '_auction_dam_third_genration_three', stripslashes( $_POST['_auction_dam_third_genration_three'] ) );
+			if (isset($_POST['_auction_dam_third_genration_four']))
+				update_post_meta( $post_id, '_auction_dam_third_genration_four', stripslashes( $_POST['_auction_dam_third_genration_four'] ) );
+			if (isset($_POST['_auction_dam_image']))
+				update_post_meta( $post_id, '_auction_dam_image', stripslashes( $_POST['_auction_dam_image'] ) );
+				
+
+			
 	    	}
 
 	} // simple_auctions_meta_save() 
@@ -320,7 +405,7 @@ class WC_Vendors_Simple_Auctions {
 		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_end_date', array( 
 			'post_id'			=> $post_id, 
 			'id' 				=> '_auction_dates_to', 
-			'label' 			=> __( 'To', 'wcvendors-pro-simple-auctions' ), 
+			'label' 			=> __( 'To1', 'wcvendors-pro-simple-auctions' ), 
 			'class'				=> 'wcv-datepicker', 
 			'placeholder'		=> __( 'To&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD', 
 			'wrapper_start' 	=> '<div class="all-50 small-100">',
@@ -332,7 +417,254 @@ class WC_Vendors_Simple_Auctions {
 				),
 			) )
 		);
+		
+		echo "<h4 style='color:green'>ICBF* Verified Weight</h4>";
+		// Birth Weight 
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_birth_weight', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_birth_weight',
+	            'label'                 => __( 'Birth Weight', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
+		echo "<h4 style='color:green;position: relative;float: left;margin-top: -40px;margin-left: 24px;'>Weight Predictor</h4>";
+		// Yearling Weight 		
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_expecated_sale_weight', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_expecated_sale_weight',
+	            'label'                 => __( 'Expected Sale Weight', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-50 small-100">',
+	            'wrapper_end'           =>  '</div></div>'
+	            ) )
+	    );
+		
+		
+		
+		// Weaning Weight 
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_weaning_weight', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_weaning_weight',
+	            'label'                 => __( 'Weaning Weight', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
+		// Average Daily Gain
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_average_daily_gain_weight', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_average_daily_gain_weight',
+	            'label'                 => __( 'Average Daily Gain', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-50 small-100">',
+	            'wrapper_end'           =>  '</div></div>'
+	            ) )
+	    );
+		
+		// Yearling Weight 		
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_yearling_weight', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_yearling_weight',
+	            'label'                 => __( 'Yearling Weight', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100">',
+	            'wrapper_end'           =>  '</div></div>'
+	            ) )
+	    );
+		
+		
+		
+		
+		
+		echo "<h4 style='color:green'>Bloodline</h4>";
+		
+		// Sire
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_sire', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_sire',
+	            'label'                 => __( 'Sire', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
+		// 2nd generation
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_second_genration_one', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_second_genration_one',
+	            'label'                 => __( '2nd Generation', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
+		// 3rd generation
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_third_genration_one', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_third_genration_one',
+	            'label'                 => __( '3rd Generation', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div></div>'
+	            ) )
+	    );
 
+		// Sire File
+		WCVendors_Pro_Form_Helper::file_uploader( apply_filters( 'wcv_simple_auctions_sire_image', array(
+	            'post_id'               => $object_id,
+	            'image_meta_key'        => '_auction_sire_image',
+	            'label'                 => __( '', 'wc_simple_auctions' ) ,	            
+	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
+		// 2nd generation two
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_second_genration_two', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_second_genration_two',
+	            'label'                 => __( ' ', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
+		// 3rd generation two
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_third_genration_two', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_third_genration_two',
+	            'label'                 => __( '', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div></div>'
+	            ) )
+	    );
+		
+		// 3rd generation
+		echo '<div class="wcv-cols-group wcv-horizontal-gutters kishan"><div class="all-33 small-100">&nbsp;</div><div class="all-33 small-100">&nbsp;</div>'; 
+		// 3rd generation two
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_third_genration_three', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_third_genration_three',
+	            'label'                 => __( '', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div></div>'
+	            ) )
+	    );
+		
+		echo '<div class="wcv-cols-group wcv-horizontal-gutters kishan"><div class="all-33 small-100">&nbsp;</div><div class="all-33 small-100">&nbsp;</div>'; 
+		// 3rd generation two
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_third_genration_four', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_third_genration_four',
+	            'label'                 => __( '', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div></div>'
+	            ) )
+	    );
+		
+		////////////// Dam //////////////
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_dam', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_dam',
+	            'label'                 => __( 'Dam', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
+		// 2nd generation dam
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_dam_second_genration_one', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_dam_second_genration_one',
+	            'label'                 => __( '2nd Generation', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
+		// 3rd generation
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_dam_third_genration_one', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_dam_third_genration_one',
+	            'label'                 => __( '3rd Generation', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div></div>'
+	            ) )
+	    );
+		
+		
+		// Sire File
+		WCVendors_Pro_Form_Helper::file_uploader( apply_filters( 'wcv_simple_auctions_dam_image', array(
+	            'post_id'               => $post_id,
+	            'image_meta_key'        => '_auction_dam_image',
+	            'label'                 => __( '', 'wc_simple_auctions' ) ,	            
+	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
+		// 2nd generation two dam
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_dam_second_genration_two', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_dam_second_genration_two',
+	            'label'                 => __( ' ', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
+		// 3rd generation two dam
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_dam_third_genration_two', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_dam_third_genration_two',
+	            'label'                 => __( '', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div></div>'
+	            ) )
+	    );
+		
+		// 3rd generation dam
+		echo '<div class="wcv-cols-group wcv-horizontal-gutters kishan"><div class="all-33 small-100">&nbsp;</div><div class="all-33 small-100">&nbsp;</div>'; 
+		// 3rd generation two
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_dam_third_genration_three', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_dam_third_genration_three',
+	            'label'                 => __( '', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div></div>'
+	            ) )
+	    );
+		
+		echo '<div class="wcv-cols-group wcv-horizontal-gutters kishan"><div class="all-33 small-100">&nbsp;</div><div class="all-33 small-100">&nbsp;</div>'; 
+		// 3rd generation two
+		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_dam_third_genration_four', array(
+	            'post_id'               => $post_id,
+	            'id'                    => '_auction_dam_third_genration_four',
+	            'label'                 => __( '', 'wc_simple_auctions' ) ,
+	            'data_type'             => 'text',
+	            'wrapper_start'         => '<div class="all-33 small-100">',
+	            'wrapper_end'           =>  '</div></div>'
+	            ) )
+	    );
+		
+		
 		echo '</div>'; 
 
 

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0253edb-d875-4047-8af6-d42ab3c27f98" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wc-vendors-pro-simple-auctions/class-wcv-simple-auctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wc-vendors-pro-simple-auctions/class-wcv-simple-auctions.php" afterDir="false" />
-    </list>
+    <list default="true" id="a0253edb-d875-4047-8af6-d42ab3c27f98" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +14,8 @@
       <file leaf-file-name="class-wcv-simple-auctions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wc-vendors-pro-simple-auctions/class-wcv-simple-auctions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+            <state relative-caret-position="153">
+              <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -119,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1532669256229</updated>
       <workItem from="1532669262575" duration="1024000" />
-      <workItem from="1532672042357" duration="1206000" />
+      <workItem from="1532672042357" duration="1301000" />
     </task>
     <task id="LOCAL-00001" summary="Vendor plugin changes - KC">
       <created>1532669761334</created>
@@ -153,7 +150,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2230000" />
+    <option name="totallyTimeSpent" value="2325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -166,7 +163,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="20" width="1400" height="820" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -239,8 +235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wc-vendors-pro-simple-auctions/class-wcv-simple-auctions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="44" column="37" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+        <state relative-caret-position="153">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
         </state>
       </provider>
     </entry>
