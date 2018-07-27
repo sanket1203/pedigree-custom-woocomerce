@@ -39,7 +39,7 @@ class WC_Vendors_Simple_Auctions {
 	 */
 	protected static $instance = null;
 
-	/**
+	/** 
 	 * Initialize the plugin public actions.
 	 */
 	private function __construct() {
