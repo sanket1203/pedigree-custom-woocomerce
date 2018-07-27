@@ -33,7 +33,7 @@ class WC_Vendors_Simple_Auctions {
 	const VERSION = '1.0.0';
 
 	/**
-	 * Instance of this class. 
+	 * Instance of this class.
 	 *
 	 * @var object
 	 */
