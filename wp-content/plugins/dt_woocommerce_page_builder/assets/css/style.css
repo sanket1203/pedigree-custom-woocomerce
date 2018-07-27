@@ -1,0 +1,7 @@
+.dtwpb-woocommerce-page {
+  position: relative;
+}
+.dtwpb-woocommerce-page div.images {
+  width: 100% !important;
+  float: none;
+}

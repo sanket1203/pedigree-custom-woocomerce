@@ -1,0 +1,567 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Extendons: Woocommerce Registration Plugin - Add Custom "
+"Registration Fields\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-18 10:40+0000\n"
+"PO-Revision-Date: 2017-09-29 06:15+0000\n"
+"Last-Translator: admin <usman.mehmood@unitedsol.net>\n"
+"Language-Team: Dutch\n"
+"Language: nl-NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: admin/view/view.php:41 admin/view/view.php:118 admin/view/view.php:196
+#: admin/view/view.php:288 admin/view/view.php:377 admin/view/view.php:455
+#: admin/view/view.php:548 admin/view/view.php:625 admin/view/view.php:703
+#: admin/view/view.php:781 admin/view/view.php:864
+msgid "Required:"
+msgstr "Vereist:"
+
+#: admin/view/view.php:44 admin/view/view.php:121 admin/view/view.php:199
+#: admin/view/view.php:291 admin/view/view.php:380 admin/view/view.php:458
+#: admin/view/view.php:551 admin/view/view.php:628 admin/view/view.php:706
+#: admin/view/view.php:784 admin/view/view.php:867
+msgid "Hide:"
+msgstr "Verbergen:"
+
+#: admin/view/view.php:47 admin/view/view.php:124 admin/view/view.php:554
+#: admin/view/view.php:631 admin/view/view.php:709 admin/view/view.php:787
+#: admin/view/view.php:962
+msgid "Placeholder:"
+msgstr "Tijdelijke aanduiding:"
+
+#: admin/view/view.php:50 admin/view/view.php:127 admin/view/view.php:219
+#: admin/view/view.php:307 admin/view/view.php:384 admin/view/view.php:479
+#: admin/view/view.php:557 admin/view/view.php:634 admin/view/view.php:712
+#: admin/view/view.php:790 admin/view/view.php:968
+msgid "Field Width:"
+msgstr "Veldbreedte:"
+
+#: admin/view/view.php:52 admin/view/view.php:129 admin/view/view.php:221
+#: admin/view/view.php:309 admin/view/view.php:386 admin/view/view.php:481
+#: admin/view/view.php:559 admin/view/view.php:636 admin/view/view.php:714
+#: admin/view/view.php:792 admin/view/view.php:970
+msgid "Full Width"
+msgstr ""
+"Volle breedte\n"
+
+#: admin/view/view.php:53 admin/view/view.php:130 admin/view/view.php:222
+#: admin/view/view.php:310 admin/view/view.php:387 admin/view/view.php:482
+#: admin/view/view.php:560 admin/view/view.php:637 admin/view/view.php:715
+#: admin/view/view.php:793 admin/view/view.php:971
+msgid "Half Width"
+msgstr ""
+"Halve breedte\n"
+
+#: admin/view/view.php:57 admin/view/view.php:134 admin/view/view.php:226
+#: admin/view/view.php:314 admin/view/view.php:391 admin/view/view.php:486
+#: admin/view/view.php:564 admin/view/view.php:641 admin/view/view.php:719
+#: admin/view/view.php:797 admin/view/view.php:975
+msgid "Field Message:"
+msgstr "Veldbericht:"
+
+#: admin/view/view.php:61 admin/view/view.php:139 admin/view/view.php:230
+#: admin/view/view.php:319 admin/view/view.php:396 admin/view/view.php:490
+#: admin/view/view.php:568 admin/view/view.php:646 admin/view/view.php:724
+#: admin/view/view.php:802 admin/view/view.php:981
+msgid "Conditional Logic:"
+msgstr "Conditional Logic:"
+
+#: admin/view/view.php:65 admin/view/view.php:143 admin/view/view.php:234
+#: admin/view/view.php:323 admin/view/view.php:400 admin/view/view.php:494
+#: admin/view/view.php:572 admin/view/view.php:650 admin/view/view.php:728
+#: admin/view/view.php:806 admin/view/view.php:985
+msgid "Show"
+msgstr "Tonen"
+
+#: admin/view/view.php:66 admin/view/view.php:144 admin/view/view.php:235
+#: admin/view/view.php:324 admin/view/view.php:401 admin/view/view.php:495
+#: admin/view/view.php:573 admin/view/view.php:651 admin/view/view.php:729
+#: admin/view/view.php:807 admin/view/view.php:986
+msgid "Hide"
+msgstr "Verbergen"
+
+#: admin/view/view.php:69 admin/view/view.php:147 admin/view/view.php:238
+#: admin/view/view.php:327 admin/view/view.php:404 admin/view/view.php:498
+#: admin/view/view.php:576 admin/view/view.php:654 admin/view/view.php:732
+#: admin/view/view.php:810 admin/view/view.php:989
+msgid "if value of"
+msgstr "als waarde van"
+
+#: admin/view/view.php:79 admin/view/view.php:157 admin/view/view.php:248
+#: admin/view/view.php:337 admin/view/view.php:414 admin/view/view.php:508
+#: admin/view/view.php:586 admin/view/view.php:664 admin/view/view.php:742
+#: admin/view/view.php:820 admin/view/view.php:1006
+msgid "is not empty"
+msgstr ""
+"is niet leeg\n"
+
+#: admin/view/view.php:80 admin/view/view.php:158 admin/view/view.php:249
+#: admin/view/view.php:338 admin/view/view.php:415 admin/view/view.php:509
+#: admin/view/view.php:587 admin/view/view.php:665 admin/view/view.php:743
+#: admin/view/view.php:821 admin/view/view.php:1007
+msgid "is equal to"
+msgstr ""
+"is gelijk aan\n"
+
+#: admin/view/view.php:81 admin/view/view.php:159 admin/view/view.php:250
+#: admin/view/view.php:339 admin/view/view.php:416 admin/view/view.php:510
+#: admin/view/view.php:588 admin/view/view.php:666 admin/view/view.php:744
+#: admin/view/view.php:822 admin/view/view.php:1008
+msgid "is not equal to"
+msgstr "is niet gelijk aan"
+
+#: admin/view/view.php:82 admin/view/view.php:160 admin/view/view.php:251
+#: admin/view/view.php:340 admin/view/view.php:417 admin/view/view.php:511
+#: admin/view/view.php:589 admin/view/view.php:667 admin/view/view.php:745
+#: admin/view/view.php:823 admin/view/view.php:1009
+msgid "is checked"
+msgstr ""
+"is nagekeken\n"
+
+#: admin/view/view.php:106
+msgid "Textarea"
+msgstr "Textarea"
+
+#: admin/view/view.php:184
+msgid "Select Box"
+msgstr "Selecteer vak"
+
+#: admin/view/view.php:204 admin/view/view.php:295 admin/view/view.php:873
+msgid "Options:"
+msgstr "Opties:"
+
+#: admin/view/view.php:208 admin/view/view.php:298
+msgid "Option Value"
+msgstr "Optie Waarde"
+
+#: admin/view/view.php:209 admin/view/view.php:299
+msgid "Option Text"
+msgstr "Optie Tekst"
+
+#: admin/view/view.php:211 admin/view/view.php:301
+msgid "Add Option"
+msgstr "Optie toevoegen"
+
+#: admin/view/view.php:276
+msgid "Multi Select Box"
+msgstr "Multi Select Box"
+
+#: admin/view/view.php:365
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: admin/view/view.php:443
+msgid "Radio Button"
+msgstr ""
+"Radio knop\n"
+
+#: admin/view/view.php:462
+msgid "Options"
+msgstr "Opties"
+
+#: admin/view/view.php:536
+msgid "Date Picker"
+msgstr ""
+"Datumkiezer\n"
+
+#: admin/view/view.php:613
+msgid "Time Picker"
+msgstr "Time Picker"
+
+#: admin/view/view.php:769
+msgid "File / Image Upload"
+msgstr "Bestand / afbeelding uploaden"
+
+#: admin/view/view.php:846
+msgid "Registration Form Fields"
+msgstr "Registratie formulier velden"
+
+#: admin/view/support.php:3
+msgid "Welcome to Extendons Support – We are here to help"
+msgstr "Welkom bij Extendons Support - We zijn er om te helpen"
+
+#: admin/view/support.php:5
+msgid ""
+"Our customer support team is powered with enthusiasm to serve you the best "
+"in solving a technical issue or answering your queries in time. If you have "
+"got a question, please do not hesitate to ask us in this easy to fill form, "
+"and we assure you a prompt reply."
+msgstr ""
+"Ons klantenservice team heeft veel enthousiasme om u het beste te helpen bij "
+"het oplossen van een technisch probleem of uw vragen tijdig te beantwoorden. "
+"Als u een vraag hebt, aarzel dan niet om ons te vragen in dit makkelijke "
+"formulier en wij verzekeren u snel een antwoord."
+
+#: admin/view/support.php:42
+msgid "Extendon Active Plugin"
+msgstr "Extendon Active Plugin"
+
+#: admin/view/support.php:43
+msgid "Version"
+msgstr "Versie"
+
+#: admin/view/support.php:44
+msgid "Company"
+msgstr ""
+"Bedrijf\n"
+
+#: admin/view/support.php:61
+msgid "Visit plugin homepage"
+msgstr "Ga naar de startpagina van de plugin"
+
+#: admin/view/support.php:74
+#, php-format
+msgid "by %s"
+msgstr "door %s"
+
+#: admin/view/support.php:89
+msgid "Contact Extendon Support Team"
+msgstr "Neem contact op met Extendon Support Team"
+
+#: admin/view/support.php:91
+msgid "Your message has been successfully sent. We will contact you very soon!"
+msgstr ""
+"Uw bericht is succesvol verzonden. Wij zullen u binnenkort contact met u "
+"opnemen!"
+
+#: admin/view/support.php:97
+msgid "First Name"
+msgstr ""
+"Voornaam\n"
+
+#: admin/view/support.php:99
+msgid "Last Name"
+msgstr ""
+"Achternaam\n"
+
+#: admin/view/support.php:104
+msgid "Your Email"
+msgstr ""
+"Jouw email\n"
+
+#: admin/view/support.php:114
+msgid "Select Plugin"
+msgstr "Selecteer invoegtoepassing"
+
+#: admin/view/support.php:121
+msgid "Message"
+msgstr "Bericht"
+
+#: admin/view/support.php:126
+msgid "Send Request"
+msgstr ""
+"Verzend verzoek\n"
+
+#: front/view/edit_profile.php:25
+msgid "Edit Profile"
+msgstr ""
+"Bewerk profiel\n"
+
+#. Description of the plugin
+msgid ""
+"Obtain additional information from customers on registration form with "
+"Woocommerce Custom Registration fields plugin. You can also allow customers "
+"to login using their social networks. This Plugin supports 10 different "
+"types of custom fields such as text box, text area, select box, multi select "
+"box, checkbox, radio button, etc."
+msgstr ""
+"Krijg aanvullende informatie van klanten op het registratieformulier met de "
+"invoegtoepassing Woocommerce Custom Registration. U kunt ook klanten "
+"inloggen met hun sociale netwerken. Deze plugin ondersteunt 10 verschillende "
+"typen aangepaste velden, zoals tekstvak, tekstgebied, selectievakje, multi "
+"selectievakje, selectievakje, radioknop, enz."
+
+#: extendons_registration_fields.php:192
+msgid "Question Woocommerece."
+msgstr "Vraag Woocommerce."
+
+#: extendons_registration_fields.php:197
+msgid "First Name:"
+msgstr ""
+"Voornaam:\n"
+
+#: extendons_registration_fields.php:201
+msgid "Last Name:"
+msgstr ""
+"Achternaam:\n"
+
+#: extendons_registration_fields.php:205
+msgid "Email:"
+msgstr "Email:"
+
+#: extendons_registration_fields.php:209
+msgid "Phone:"
+msgstr "Telefoon:"
+
+#: extendons_registration_fields.php:213
+msgid "Subject:"
+msgstr "Onderwerpen:"
+
+#: extendons_registration_fields.php:217
+msgid "Message:"
+msgstr "Bericht:"
+
+#: admin/class-eo-registration-fields-admin.php:46 admin/view/view.php:9
+msgid "Registration Fields"
+msgstr "Registratie Velden"
+
+#: admin/class-eo-registration-fields-admin.php:47
+#: admin/class-eo-registration-fields-admin.php:47
+msgid "Settings"
+msgstr "instellingen"
+
+#: admin/class-eo-registration-fields-admin.php:48
+#: admin/class-eo-registration-fields-admin.php:48
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: admin/class-eo-registration-fields-admin.php:170 admin/view/view.php:64
+#: admin/view/view.php:72 admin/view/view.php:78 admin/view/view.php:142
+#: admin/view/view.php:150 admin/view/view.php:156 admin/view/view.php:233
+#: admin/view/view.php:241 admin/view/view.php:247 admin/view/view.php:322
+#: admin/view/view.php:330 admin/view/view.php:336 admin/view/view.php:399
+#: admin/view/view.php:407 admin/view/view.php:413 admin/view/view.php:493
+#: admin/view/view.php:501 admin/view/view.php:507 admin/view/view.php:571
+#: admin/view/view.php:579 admin/view/view.php:585 admin/view/view.php:649
+#: admin/view/view.php:657 admin/view/view.php:663 admin/view/view.php:727
+#: admin/view/view.php:735 admin/view/view.php:741 admin/view/view.php:805
+#: admin/view/view.php:813 admin/view/view.php:819 admin/view/view.php:984
+#: admin/view/view.php:996 admin/view/view.php:1005
+msgid "Select"
+msgstr "kiezen"
+
+#: admin/class-eo-registration-fields-admin.php:324
+msgid "Customer Profile"
+msgstr ""
+"Klantenprofiel\n"
+
+#: front/class-eo-registration-fields-front.php:564
+msgid "Current"
+msgstr ""
+"Actueel\n"
+
+#: front/class-eo-registration-fields-front.php:593
+msgid "File type not allowed!"
+msgstr "Bestandstype niet toegestaan!"
+
+#: front/class-eo-registration-fields-front.php:596
+msgid "File size exceeded the maximum size!"
+msgstr "Bestandsgrootte overschreden de maximale grootte!"
+
+#: front/class-eo-registration-fields-front.php:1199
+#: front/class-eo-registration-fields-front.php:1230
+msgid "Graph returned an error: "
+msgstr "Grafiek leverde een fout op:"
+
+#: front/class-eo-registration-fields-front.php:1206
+#: front/class-eo-registration-fields-front.php:1236
+msgid "Facebook SDK returned an error: "
+msgstr "Facebook SDK keerde een fout terug:"
+
+#: admin/view/settings.php:31 admin/view/settings.php:71
+msgid "General Settings"
+msgstr ""
+"Algemene instellingen\n"
+
+#: admin/view/settings.php:32
+msgid "Facebook Settings"
+msgstr "Facebook instellingen"
+
+#: admin/view/settings.php:33
+msgid "Twitter Settings"
+msgstr "Twitter instellingen"
+
+#: admin/view/settings.php:37 admin/view/settings.php:359
+msgid "Collapse Menu"
+msgstr "Collapse Menu"
+
+#: admin/view/settings.php:49
+msgid "Extension configuration settings"
+msgstr "Extensie configuratie instellingen"
+
+#: admin/view/settings.php:51
+msgid ""
+"Configure basic settings to personalize the extension to your website "
+"specific requirements. With an enticing user interface, you can easily "
+"enable or disable an option or functionality. Try customization the "
+"extension and explore the useful features of this extension.\n"
+msgstr ""
+"Configureer basisinstellingen om de extensie te personaliseren naar de "
+"specifieke eisen van uw website. Met een verleidelijke gebruikersinterface "
+"kunt u een optie of functionaliteit gemakkelijk inschakelen of uitschakelen. "
+"Probeer de uitbreiding aan te passen en de nuttige functies van deze "
+"extensie te onderzoeken."
+
+#: admin/view/settings.php:54
+msgid "Settings Saved!"
+msgstr ""
+"Instellingen opgeslagen!\n"
+
+#: admin/view/settings.php:80
+msgid "Account Section Title"
+msgstr "Titel van de account sectie"
+
+#: admin/view/settings.php:83
+msgid "Main heading of the account section"
+msgstr "Hoofdopdracht van het account gedeelte"
+
+#: admin/view/settings.php:95
+msgid "Profile Section Title"
+msgstr "Profiel Titel Titel"
+
+#: admin/view/settings.php:98
+msgid "Main heading of the profile section."
+msgstr "Hoofdopdracht van het profiel gedeelte."
+
+#: admin/view/settings.php:113 admin/view/view.php:1043
+#: front/view/edit_profile.php:42
+msgid "Save Changes"
+msgstr ""
+"Wijzigingen opslaan\n"
+
+#: admin/view/settings.php:130
+msgid "Login With Facebook"
+msgstr ""
+"Inloggen met Facebook\n"
+
+#: admin/view/settings.php:133
+msgid "Enable or Disable login with facebook feature on registration page."
+msgstr "Schakel login in met facebook-functie op registratiepagina."
+
+#: admin/view/settings.php:139 admin/view/settings.php:195
+msgid "Enabled"
+msgstr ""
+"Ingeschakeld\n"
+
+#: admin/view/settings.php:141 admin/view/settings.php:197
+msgid "Disabled"
+msgstr "invalide"
+
+#: admin/view/settings.php:150
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: admin/view/settings.php:153
+msgid ""
+"This is the facebook app id, you can get this id from your facebook app "
+"settings."
+msgstr ""
+"Dit is de facebook app id, u kunt dit id van uw facebook app instellingen "
+"krijgen."
+
+#: admin/view/settings.php:164
+msgid "Facebook App Secret"
+msgstr "Facebook App Secret"
+
+#: admin/view/settings.php:167
+msgid ""
+"This is the facebook app secret, you can get this id from your facebook app "
+"settings."
+msgstr ""
+"Dit is de Facebook-app geheim, je kunt dit id van je facebook app "
+"instellingen krijgen."
+
+#: admin/view/settings.php:186
+msgid "Login With Twitter"
+msgstr "Inloggen met Twitter"
+
+#: admin/view/settings.php:189
+msgid "Enable or Disable login with twitter feature on registration page."
+msgstr ""
+"Inschakelen of uitschakelen met de twitter-functie op de registratiepagina."
+
+#: admin/view/settings.php:206
+msgid "Twitter App Consumer Key"
+msgstr "Twitter App Consumer Key"
+
+#: admin/view/settings.php:209
+msgid ""
+"This is the twitter app consumer key, you can get this key from your twitter "
+"app keys and access token tab."
+msgstr ""
+"Dit is de twitter app-gebruikerscode, u kunt deze sleutel van uw twitter app "
+"toetsen en toegang token tab."
+
+#: admin/view/settings.php:220
+msgid "Twitter App Consumer Secret"
+msgstr "Twitter App Consumer Secret"
+
+#: admin/view/settings.php:223
+msgid ""
+"This is the twitter app consumer secret, you can get this key from your "
+"twitter app keys and access token tab."
+msgstr ""
+"Dit is het consumentengeheim van de twitter app, u kunt deze sleutel van uw "
+"twitter app toetsen en toegang token tab krijgen."
+
+#: admin/view/settings.php:234
+msgid "Twitter App Access Token"
+msgstr "Twitter App Access Token"
+
+#: admin/view/settings.php:237
+msgid ""
+"This is the twitter app access token, you can get this key from your twitter "
+"app keys and access token tab."
+msgstr ""
+"Dit is de twitter app toegang token, u kunt deze sleutel krijgen van uw "
+"twitter app toetsen en toegang token tabblad."
+
+#: admin/view/settings.php:248
+msgid "Twitter App Access Token Secret"
+msgstr "Twitter App Access Token Secret"
+
+#: admin/view/settings.php:251
+msgid ""
+"This is the twitter app access token secret, you can get this key from your "
+"twitter app keys and access token tab."
+msgstr ""
+"Dit is het geheim van de twitter app-toegangscode, u kunt deze sleutel van "
+"uw twitter-apptoetsen en het tabblad Toegangstoken krijgen."
+
+#: admin/view/settings.php:261
+msgid ""
+"In your app permission you must check \"Request email addresses from users\" "
+"for getting user email, otherwise account will not be created."
+msgstr ""
+"In uw toestemming van de app moet u 'e-mailadressen van gebruikers' "
+"aanvragen om gebruikers email te krijgen, anders wordt er geen account "
+"gemaakt."
+
+#: admin/view/settings.php:356
+msgid "General Setting"
+msgstr ""
+"Algemene instelling\n"
+
+#: admin/view/settings.php:357
+msgid "Facebook Setting"
+msgstr "Facebook instelling"
+
+#: admin/view/settings.php:358
+msgid "Twitter Setting"
+msgstr "Twitter instelling"
+
+#: admin/view/view.php:11
+msgid "Registration Form"
+msgstr ""
+"Registratieformulier\n"
+
+#: admin/view/view.php:15
+msgid "Form Fields"
+msgstr "Vorm velden"
+
+#: admin/view/view.php:25
+msgid "Text"
+msgstr "Tekst"
+
+#: admin/view/view.php:38 admin/view/view.php:115 admin/view/view.php:193
+#: admin/view/view.php:285 admin/view/view.php:374 admin/view/view.php:452
+#: admin/view/view.php:545 admin/view/view.php:622 admin/view/view.php:700
+#: admin/view/view.php:778 admin/view/view.php:861
+msgid "Label:"
+msgstr ""
+"Etiket:\n"

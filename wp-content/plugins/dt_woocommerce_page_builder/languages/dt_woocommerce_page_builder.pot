@@ -1,0 +1,1428 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: DT WooCommerce Page Builder\n"
+"POT-Creation-Date: 2017-10-23 17:47+0700\n"
+"PO-Revision-Date: 2017-10-23 17:47+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: dt_woocommerce_page_builder.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: dt_woocommerce_page_builder.php:153
+msgid "Back to Order list"
+msgstr ""
+
+#: dt_woocommerce_page_builder.php:161
+#, php-format
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://www.woothemes.com/"
+"woocommerce/\" target=\"_blank\">WooCommerce</a></strong> plugin to be "
+"installed and activated on your site."
+msgstr ""
+
+#: dt_woocommerce_page_builder.php:169
+#, php-format
+msgid ""
+"<strong>%s</strong> Compatible with <strong>Visual Composer</strong> plugin. "
+"So You can install <strong><a href=\"http://bit.ly/vcomposer\" target="
+"\"_blank\">Visual Composer</a></strong> plugin to be used into Visual "
+"Composer page builder."
+msgstr ""
+
+#: includes/admin.php:38 includes/admin.php:88 includes/admin.php:119
+msgid "Product Custom Page"
+msgstr ""
+
+#: includes/admin.php:49 includes/admin.php:93 includes/admin.php:105
+#: includes/admin.php:125 includes/admin.php:141
+#: includes/class-vc-product-grid-config.php:493
+#: includes/class-vc-product-grid-config.php:550
+#: includes/class-vc-product-grid-config.php:864
+#: includes/class-vc-product-grid-config.php:921
+#: includes/class-vc-product-grid-config.php:1128
+#: includes/class-vc-product-grid-config.php:1177
+msgid "None"
+msgstr ""
+
+#: includes/admin.php:54 includes/admin.php:96 includes/admin.php:108
+#: includes/admin.php:129 includes/admin.php:145
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: includes/admin.php:100 includes/admin.php:135
+msgid "Category Custom Page"
+msgstr ""
+
+#: includes/admin.php:187
+msgid "Checkout Page Custom Template?"
+msgstr ""
+
+#: includes/admin.php:188
+msgid "Use WooCommerce Page Builder Checkout shortcodes?"
+msgstr ""
+
+#: includes/admin.php:192
+msgid ""
+"Default (use shortcode [woocommerce_checkout]). Note: Remove the "
+"[woocommerce_checkout] shortcode standard default when use the custom "
+"shortcodes of WooCommerce Page Builder."
+msgstr ""
+
+#: includes/admin.php:213
+msgid "Before Login Page"
+msgstr ""
+
+#: includes/admin.php:214
+msgid ""
+"Custom page before user login. Go to build a custom MyAccount Before login "
+"page, use the elements in the \"DT Woo MyAccount Before Login\". You can "
+"also add the steps/description how to create an account for this custom page."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:21
+#: includes/class-vc-product-grid-config.php:700
+#: includes/class-vc-product-grid-config.php:713
+#: includes/class-vc-product-grid-config.php:726
+#: includes/class-vc-product-grid-config.php:827
+#: includes/class-vc-product-grid-config.php:840
+#: includes/class-vc-product-grid-config.php:853
+#: includes/class-vc-product-grid-config.php:1058
+#: includes/class-vc-product-grid-config.php:1071
+#: includes/class-vc-product-grid-config.php:1084
+msgid "Load More Button"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:34
+msgid "Load more"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:98
+msgid "Custom query"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:102
+msgid "List of IDs"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:124
+msgid "Data source"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:128
+msgid "Select content type for your grid."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:186
+msgid "Total items"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:191
+msgid ""
+"Set max limit for items in grid or enter -1 to display all (limited to 1000)."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:202
+#: includes/class-vc-product-grid-config.php:759
+msgid "Display Style"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:205
+#: includes/class-vc-product-grid-config.php:762
+msgid "Show all"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:206
+#: includes/class-vc-product-grid-config.php:763
+msgid "Load more button"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:207
+#: includes/class-vc-product-grid-config.php:764
+msgid "Lazy loading"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:208
+#: includes/class-vc-product-grid-config.php:508
+#: includes/class-vc-product-grid-config.php:523
+#: includes/class-vc-product-grid-config.php:537
+#: includes/class-vc-product-grid-config.php:572
+#: includes/class-vc-product-grid-config.php:586
+#: includes/class-vc-product-grid-config.php:600
+#: includes/class-vc-product-grid-config.php:612
+#: includes/class-vc-product-grid-config.php:622
+#: includes/class-vc-product-grid-config.php:639
+#: includes/class-vc-product-grid-config.php:765
+#: includes/class-vc-product-grid-config.php:879
+#: includes/class-vc-product-grid-config.php:894
+#: includes/class-vc-product-grid-config.php:908
+#: includes/class-vc-product-grid-config.php:943
+#: includes/class-vc-product-grid-config.php:957
+#: includes/class-vc-product-grid-config.php:971
+#: includes/class-vc-product-grid-config.php:983
+#: includes/class-vc-product-grid-config.php:993
+#: includes/class-vc-product-grid-config.php:1010
+#: includes/class-vc-product-grid-config.php:1120
+#: includes/class-vc-product-grid-config.php:1138
+#: includes/class-vc-product-grid-config.php:1160
+#: includes/class-vc-product-grid-config.php:1169
+msgid "Pagination"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:215
+#: includes/class-vc-product-grid-config.php:772
+msgid "Select display style for grid."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:219
+#: includes/class-vc-product-grid-config.php:776
+msgid "Items per page"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:221
+#: includes/class-vc-product-grid-config.php:778
+msgid "Number of items to show per page."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:235
+msgid "Show filter"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:237
+#: includes/class-vc-product-grid-config.php:599
+#: includes/class-vc-product-grid-config.php:970
+msgid "Yes"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:238
+msgid "Append filter to grid."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:242
+#: includes/class-vc-product-grid-config.php:792
+msgid "Grid elements per row"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:247
+#: includes/class-vc-product-grid-config.php:797
+msgid "Select number of single grid elements per row."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:251
+#: includes/class-vc-product-grid-config.php:801
+msgid "Gap"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:268
+#: includes/class-vc-product-grid-config.php:818
+msgid "Select gap between grid elements."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:274
+msgid "Order by"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:277 includes/vc-map/vc-map.php:14
+msgid "Date"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:278
+msgid "Order by post ID"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:279 includes/vc-map/vc-map.php:16
+msgid "Author"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:280 includes/vc-map/vc-map.php:17
+msgid "Title"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:281
+msgid "Last modified date"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:282
+msgid "Post/page parent ID"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:283
+msgid "Number of comments"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:284
+msgid "Menu order/Page Order"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:285
+msgid "Meta value"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:286
+msgid "Meta value number"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:287
+msgid "Random order"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:289
+msgid ""
+"Select order type. If \"Meta value\" or \"Meta value Number\" is chosen then "
+"meta key is required."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:290
+#: includes/class-vc-product-grid-config.php:304
+#: includes/class-vc-product-grid-config.php:324
+#: includes/class-vc-product-grid-config.php:339
+#: includes/class-vc-product-grid-config.php:354
+msgid "Data Settings"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:302
+msgid "Sort order"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:306 includes/vc-map/vc-map.php:25
+msgid "Descending"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:307 includes/vc-map/vc-map.php:26
+msgid "Ascending"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:310
+msgid "Select sorting order."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:321
+msgid "Meta key"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:323
+msgid "Input meta key for grid ordering."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:336
+msgid "Offset"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:338
+msgid "Number of grid elements to displace or pass over."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:351
+msgid "Exclude"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:353
+msgid "Exclude posts, pages, etc. by title."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:371
+msgid "Filter by"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:374
+#: includes/class-vc-product-grid-config.php:408
+#: includes/class-vc-product-grid-config.php:428
+#: includes/class-vc-product-grid-config.php:441
+#: includes/class-vc-product-grid-config.php:456
+#: includes/class-vc-product-grid-config.php:470
+#: includes/class-vc-product-grid-config.php:484
+msgid "Filter"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:380
+msgid "Select filter source."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:384
+msgid "Exclude from filter list"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:402
+msgid "Enter categories, tags won't be shown in the filters list"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:412
+msgid "Style"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:415
+#: includes/class-vc-product-grid-config.php:500
+#: includes/class-vc-product-grid-config.php:871
+msgid "Rounded"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:416
+msgid "Less Rounded"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:417
+msgid "Border"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:418
+msgid "Rounded Border"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:419
+msgid "Less Rounded Border"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:420
+msgid "Filled"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:421
+msgid "Rounded Filled"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:422
+msgid "Dropdown"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:429
+msgid "Select filter display style."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:433
+msgid "Default title"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:435
+msgid "All"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:436
+msgid "Enter default title for filter option display (empty: \"All\")."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:445
+msgid "Alignment"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:448
+msgid "Center"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:449
+msgid "Left"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:450
+msgid "Right"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:457
+msgid "Select filter alignment."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:461
+msgid "Color"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:471
+msgid "Select filter color."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:475
+msgid "Filter size"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:479
+msgid "Select filter size."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:490
+#: includes/class-vc-product-grid-config.php:861
+msgid "Arrows design"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:494
+#: includes/class-vc-product-grid-config.php:865
+msgid "Simple"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:495
+#: includes/class-vc-product-grid-config.php:866
+msgid "Simple Circle Border"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:496
+#: includes/class-vc-product-grid-config.php:867
+msgid "Simple Circle"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:497
+#: includes/class-vc-product-grid-config.php:868
+msgid "Simple Square"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:498
+#: includes/class-vc-product-grid-config.php:869
+msgid "Simple Square Rounded"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:499
+#: includes/class-vc-product-grid-config.php:870
+msgid "Simple Rounded"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:501
+#: includes/class-vc-product-grid-config.php:872
+msgid "Rounded Circle Border"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:502
+#: includes/class-vc-product-grid-config.php:873
+msgid "Rounded Circle"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:503
+#: includes/class-vc-product-grid-config.php:874
+msgid "Rounded Square"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:504
+#: includes/class-vc-product-grid-config.php:875
+msgid "Simple Arrow"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:505
+#: includes/class-vc-product-grid-config.php:876
+msgid "Simple Rounded Arrow"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:513
+#: includes/class-vc-product-grid-config.php:884
+msgid "Select design for arrows."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:517
+#: includes/class-vc-product-grid-config.php:888
+msgid "Arrows position"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:520
+#: includes/class-vc-product-grid-config.php:891
+msgid "Inside Wrapper"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:521
+#: includes/class-vc-product-grid-config.php:892
+msgid "Outside Wrapper"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:529
+#: includes/class-vc-product-grid-config.php:900
+msgid "Arrows will be displayed inside or outside grid."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:533
+#: includes/class-vc-product-grid-config.php:904
+msgid "Arrows color"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:543
+#: includes/class-vc-product-grid-config.php:914
+msgid "Select color for arrows."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:547
+#: includes/class-vc-product-grid-config.php:918
+msgid "Pagination style"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:551
+#: includes/class-vc-product-grid-config.php:922
+msgid "Square Dots"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:552
+#: includes/class-vc-product-grid-config.php:923
+msgid "Radio Dots"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:553
+#: includes/class-vc-product-grid-config.php:924
+msgid "Point Dots"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:554
+#: includes/class-vc-product-grid-config.php:925
+msgid "Fill Square Dots"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:555
+#: includes/class-vc-product-grid-config.php:926
+msgid "Rounded Fill Square Dots"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:556
+#: includes/class-vc-product-grid-config.php:927
+msgid "Pagination Default"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:557
+#: includes/class-vc-product-grid-config.php:928
+msgid "Outline Default Dark"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:558
+#: includes/class-vc-product-grid-config.php:929
+msgid "Outline Default Light"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:559
+#: includes/class-vc-product-grid-config.php:930
+msgid "Pagination Rounded"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:560
+#: includes/class-vc-product-grid-config.php:931
+msgid "Outline Rounded Dark"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:561
+#: includes/class-vc-product-grid-config.php:932
+msgid "Outline Rounded Light"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:562
+#: includes/class-vc-product-grid-config.php:933
+msgid "Pagination Square"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:563
+#: includes/class-vc-product-grid-config.php:934
+msgid "Outline Square Dark"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:564
+#: includes/class-vc-product-grid-config.php:935
+msgid "Outline Square Light"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:565
+#: includes/class-vc-product-grid-config.php:936
+msgid "Pagination Rounded Square"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:566
+#: includes/class-vc-product-grid-config.php:937
+msgid "Outline Rounded Square Dark"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:567
+#: includes/class-vc-product-grid-config.php:938
+msgid "Outline Rounded Square Light"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:568
+#: includes/class-vc-product-grid-config.php:939
+msgid "Stripes Dark"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:569
+#: includes/class-vc-product-grid-config.php:940
+msgid "Stripes Light"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:577
+#: includes/class-vc-product-grid-config.php:948
+msgid "Select pagination style."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:581
+#: includes/class-vc-product-grid-config.php:952
+msgid "Pagination color"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:592
+#: includes/class-vc-product-grid-config.php:963
+msgid "Select pagination color."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:596
+#: includes/class-vc-product-grid-config.php:967
+msgid "Loop pages?"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:598
+#: includes/class-vc-product-grid-config.php:969
+msgid "Allow items to be repeated in infinite loop (carousel)."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:608
+#: includes/class-vc-product-grid-config.php:979
+msgid "Autoplay delay"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:611
+#: includes/class-vc-product-grid-config.php:982
+msgid "Enter value in seconds. Set -1 to disable autoplay."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:620
+#: includes/class-vc-product-grid-config.php:991
+msgid "Animation In"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:633
+#: includes/class-vc-product-grid-config.php:1004
+msgid "Select \"animation in\" for page transition."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:637
+#: includes/class-vc-product-grid-config.php:1008
+msgid "Animation Out"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:647
+#: includes/class-vc-product-grid-config.php:1018
+msgid "Select \"animation out\" for page transition."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:651
+#: includes/class-vc-product-grid-config.php:1022
+msgid "Grid element template"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:653
+#: includes/class-vc-product-grid-config.php:1024
+#, php-format
+msgid ""
+"%sCreate new%s template or %smodify selected%s. Predefined templates will be "
+"cloned."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:654
+#: includes/class-vc-product-grid-config.php:1025
+msgid "Item Design"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:663
+#: includes/class-vc-product-grid-config.php:1092
+#: includes/class-vc-product-grid-config.php:1125
+#: includes/class-vc-product-grid-config.php:1174
+msgid "Initial loading animation"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:672
+#: includes/class-vc-product-grid-config.php:1101
+#: includes/class-vc-product-grid-config.php:1133
+#: includes/class-vc-product-grid-config.php:1188
+msgid "Select initial loading animation for grid element."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:676
+#: includes/class-vc-product-grid-config.php:1034
+msgid "Element ID"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:678
+#: includes/class-vc-product-grid-config.php:1036
+#, php-format
+msgid ""
+"Enter element ID (Note: make sure it is unique and valid according to <a "
+"href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:682
+#: includes/class-vc-product-grid-config.php:1040 includes/vc-map/vc-map.php:38
+#: includes/vc-map/vc-map.php:59 includes/vc-map/vc-map.php:80
+#: includes/vc-map/vc-map.php:101 includes/vc-map/vc-map.php:122
+#: includes/vc-map/vc-map.php:143 includes/vc-map/vc-map.php:164
+#: includes/vc-map/vc-map.php:185 includes/vc-map/vc-map.php:206
+#: includes/vc-map/vc-map.php:227 includes/vc-map/vc-map.php:248
+#: includes/vc-map/vc-map.php:269 includes/vc-map/vc-map.php:313
+#: includes/vc-map/vc-map.php:357 includes/vc-map/vc-map.php:384
+#: includes/vc-map/vc-map.php:411 includes/vc-map/vc-map.php:438
+#: includes/vc-map/vc-map.php:461 includes/vc-map/vc-map.php:483
+#: includes/vc-map/vc-map.php:513 includes/vc-map/vc-map.php:571
+#: includes/vc-map/vc-map.php:594 includes/vc-map/vc-map.php:617
+#: includes/vc-map/vc-map.php:638 includes/vc-map/vc-map.php:682
+#: includes/vc-map/vc-map.php:705 includes/vc-map/vc-map.php:726
+#: includes/vc-map/vc-map.php:747 includes/vc-map/vc-map.php:769
+#: includes/vc-map/vc-map.php:790 includes/vc-map/vc-map.php:812
+#: includes/vc-map/vc-map.php:833 includes/vc-map/vc-map.php:865
+#: includes/vc-map/vc-map.php:887 includes/vc-map/vc-map.php:909
+#: includes/vc-map/vc-map.php:939 includes/vc-map/vc-map.php:961
+#: includes/vc-map/vc-map.php:983 includes/vc-map/vc-map.php:1027
+msgid "Extra class name"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:684
+#: includes/class-vc-product-grid-config.php:1042
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:688
+#: includes/class-vc-product-grid-config.php:1046
+msgid "CSS box"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:690
+#: includes/class-vc-product-grid-config.php:1048
+msgid "Design Options"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:696
+#: includes/class-vc-product-grid-config.php:823
+#: includes/class-vc-product-grid-config.php:1054
+msgid "Button style"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:705
+#: includes/class-vc-product-grid-config.php:832
+#: includes/class-vc-product-grid-config.php:1063
+msgid "Select button style."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:709
+#: includes/class-vc-product-grid-config.php:836
+#: includes/class-vc-product-grid-config.php:1067
+msgid "Button color"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:718
+#: includes/class-vc-product-grid-config.php:845
+#: includes/class-vc-product-grid-config.php:1076
+msgid "Select button color."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:722
+#: includes/class-vc-product-grid-config.php:849
+#: includes/class-vc-product-grid-config.php:1080
+msgid "Button size"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:725
+#: includes/class-vc-product-grid-config.php:852
+#: includes/class-vc-product-grid-config.php:1083
+msgid "Select button size."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:752
+msgid "Images"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:754
+msgid "Select images from media library."
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:1129
+#: includes/class-vc-product-grid-config.php:1178
+msgid "Default"
+msgstr ""
+
+#: includes/class-vc-product-grid-config.php:1130
+#: includes/class-vc-product-grid-config.php:1179
+msgid "Fade In"
+msgstr ""
+
+#: includes/dt-template-functions.php:41
+msgid ""
+"The order totals have been updated. Please confirm your order by pressing "
+"the Place Order button at the bottom of the page."
+msgstr ""
+
+#: includes/functions.php:47
+msgid "Default sorting"
+msgstr ""
+
+#: includes/functions.php:48
+msgid "Sort by popularity"
+msgstr ""
+
+#: includes/functions.php:49
+msgid "Sort by average rating"
+msgstr ""
+
+#: includes/functions.php:50
+msgid "Sort by newness"
+msgstr ""
+
+#: includes/functions.php:51
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: includes/functions.php:52
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: includes/functions.php:132
+msgid "&larr; Previous"
+msgstr ""
+
+#: includes/functions.php:133
+msgid "Next &rarr;"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:10
+msgid "Show"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:11
+msgid "Hide"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:15
+msgid "ID"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:18
+msgid "Modified"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:19 includes/vc-map/vc-map.php:306
+#: includes/vc-map/vc-map.php:350 includes/vc-map/vc-map.php:673
+msgid "Random"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:20
+msgid "Comment count"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:21
+msgid "Menu order"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:31
+msgid "Single Product Image"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:33 includes/vc-map/vc-map.php:54
+#: includes/vc-map/vc-map.php:75 includes/vc-map/vc-map.php:96
+#: includes/vc-map/vc-map.php:117 includes/vc-map/vc-map.php:138
+#: includes/vc-map/vc-map.php:159 includes/vc-map/vc-map.php:180
+#: includes/vc-map/vc-map.php:201 includes/vc-map/vc-map.php:222
+#: includes/vc-map/vc-map.php:243 includes/vc-map/vc-map.php:264
+#: includes/vc-map/vc-map.php:285 includes/vc-map/vc-map.php:329
+#: includes/vc-map/vc-map.php:379 includes/vc-map/vc-map.php:406
+#: includes/vc-map/vc-map.php:433 includes/vc-map/vc-map.php:456
+#: includes/vc-map/vc-map.php:478
+msgid "DT Woo Single product"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:42 includes/vc-map/vc-map.php:63
+#: includes/vc-map/vc-map.php:84 includes/vc-map/vc-map.php:105
+#: includes/vc-map/vc-map.php:126 includes/vc-map/vc-map.php:147
+#: includes/vc-map/vc-map.php:168 includes/vc-map/vc-map.php:189
+#: includes/vc-map/vc-map.php:210 includes/vc-map/vc-map.php:231
+#: includes/vc-map/vc-map.php:252 includes/vc-map/vc-map.php:273
+#: includes/vc-map/vc-map.php:317 includes/vc-map/vc-map.php:361
+#: includes/vc-map/vc-map.php:388 includes/vc-map/vc-map.php:415
+#: includes/vc-map/vc-map.php:442 includes/vc-map/vc-map.php:465
+#: includes/vc-map/vc-map.php:487 includes/vc-map/vc-map.php:517
+#: includes/vc-map/vc-map.php:575 includes/vc-map/vc-map.php:598
+#: includes/vc-map/vc-map.php:621 includes/vc-map/vc-map.php:642
+#: includes/vc-map/vc-map.php:686 includes/vc-map/vc-map.php:709
+#: includes/vc-map/vc-map.php:730 includes/vc-map/vc-map.php:751
+#: includes/vc-map/vc-map.php:773 includes/vc-map/vc-map.php:794
+#: includes/vc-map/vc-map.php:816 includes/vc-map/vc-map.php:837
+#: includes/vc-map/vc-map.php:869 includes/vc-map/vc-map.php:891
+#: includes/vc-map/vc-map.php:913 includes/vc-map/vc-map.php:943
+#: includes/vc-map/vc-map.php:965 includes/vc-map/vc-map.php:987
+#: includes/vc-map/vc-map.php:1031
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:46 includes/vc-map/vc-map.php:67
+#: includes/vc-map/vc-map.php:88 includes/vc-map/vc-map.php:109
+#: includes/vc-map/vc-map.php:130 includes/vc-map/vc-map.php:151
+#: includes/vc-map/vc-map.php:172 includes/vc-map/vc-map.php:193
+#: includes/vc-map/vc-map.php:214 includes/vc-map/vc-map.php:235
+#: includes/vc-map/vc-map.php:256 includes/vc-map/vc-map.php:277
+#: includes/vc-map/vc-map.php:321 includes/vc-map/vc-map.php:365
+#: includes/vc-map/vc-map.php:392 includes/vc-map/vc-map.php:419
+#: includes/vc-map/vc-map.php:446 includes/vc-map/vc-map.php:469
+#: includes/vc-map/vc-map.php:491 includes/vc-map/vc-map.php:521
+#: includes/vc-map/vc-map.php:579 includes/vc-map/vc-map.php:602
+#: includes/vc-map/vc-map.php:625 includes/vc-map/vc-map.php:646
+#: includes/vc-map/vc-map.php:690 includes/vc-map/vc-map.php:713
+#: includes/vc-map/vc-map.php:734 includes/vc-map/vc-map.php:755
+#: includes/vc-map/vc-map.php:777 includes/vc-map/vc-map.php:798
+#: includes/vc-map/vc-map.php:820 includes/vc-map/vc-map.php:841
+#: includes/vc-map/vc-map.php:873 includes/vc-map/vc-map.php:895
+#: includes/vc-map/vc-map.php:917 includes/vc-map/vc-map.php:947
+#: includes/vc-map/vc-map.php:969 includes/vc-map/vc-map.php:991
+#: includes/vc-map/vc-map.php:1035
+msgid "Css"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:48 includes/vc-map/vc-map.php:69
+#: includes/vc-map/vc-map.php:90 includes/vc-map/vc-map.php:111
+#: includes/vc-map/vc-map.php:132 includes/vc-map/vc-map.php:153
+#: includes/vc-map/vc-map.php:174 includes/vc-map/vc-map.php:195
+#: includes/vc-map/vc-map.php:216 includes/vc-map/vc-map.php:237
+#: includes/vc-map/vc-map.php:258 includes/vc-map/vc-map.php:279
+#: includes/vc-map/vc-map.php:323 includes/vc-map/vc-map.php:367
+#: includes/vc-map/vc-map.php:394 includes/vc-map/vc-map.php:421
+#: includes/vc-map/vc-map.php:448 includes/vc-map/vc-map.php:471
+#: includes/vc-map/vc-map.php:493 includes/vc-map/vc-map.php:523
+#: includes/vc-map/vc-map.php:581 includes/vc-map/vc-map.php:604
+#: includes/vc-map/vc-map.php:627 includes/vc-map/vc-map.php:648
+#: includes/vc-map/vc-map.php:692 includes/vc-map/vc-map.php:715
+#: includes/vc-map/vc-map.php:736 includes/vc-map/vc-map.php:757
+#: includes/vc-map/vc-map.php:779 includes/vc-map/vc-map.php:800
+#: includes/vc-map/vc-map.php:822 includes/vc-map/vc-map.php:843
+#: includes/vc-map/vc-map.php:875 includes/vc-map/vc-map.php:897
+#: includes/vc-map/vc-map.php:919 includes/vc-map/vc-map.php:949
+#: includes/vc-map/vc-map.php:971 includes/vc-map/vc-map.php:993
+#: includes/vc-map/vc-map.php:1037
+msgid "Design options"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:52
+msgid "Single Product Title"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:73
+msgid "Single Product Rating"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:94
+msgid "Single Product Price"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:115
+msgid "Single Product Excerpt"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:136
+msgid "Single Product Add To Cart"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:157
+msgid "Single Product Meta"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:178
+msgid "Single Product Share"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:199
+msgid "Single Product Tabs"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:220
+msgid "Single Product Additional Information"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:241
+msgid "Single Product Description"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:262
+msgid "Single Product Reviews"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:283
+msgid "Single Product Related Products"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:290 includes/vc-map/vc-map.php:334
+#: includes/vc-map/vc-map.php:659
+msgid "Product Per Page"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:295 includes/vc-map/vc-map.php:339
+#: includes/vc-map/vc-map.php:543 includes/vc-map/vc-map.php:664
+msgid "Columns"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:300 includes/vc-map/vc-map.php:344
+#: includes/vc-map/vc-map.php:669
+msgid "Products Ordering"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:304 includes/vc-map/vc-map.php:348
+#: includes/vc-map/vc-map.php:674
+msgid "Publish Date"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:305 includes/vc-map/vc-map.php:349
+#: includes/vc-map/vc-map.php:675
+msgid "Modified Date"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:307 includes/vc-map/vc-map.php:351
+#: includes/vc-map/vc-map.php:676
+msgid "Alphabetic"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:308 includes/vc-map/vc-map.php:352
+#: includes/vc-map/vc-map.php:677
+msgid "Popularity"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:309 includes/vc-map/vc-map.php:353
+#: includes/vc-map/vc-map.php:678
+msgid "Rate"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:310 includes/vc-map/vc-map.php:354
+#: includes/vc-map/vc-map.php:679
+#: woocommerce-page-builder-templates/cart/cart.php:39
+#: woocommerce-page-builder-templates/cart/cart.php:99
+msgid "Price"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:327
+msgid "Single Product up-sells"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:377
+msgid "YITH WooCommerce Wishlist Single Add To Wishlist"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:404
+msgid "YITH WooCommerce Compare Single Add Compare Link"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:431
+msgid "WooCommerce Germanized Single Price Unit"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:454
+msgid "WooCommerce Germanized Single Legal Info"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:476
+msgid "WooCommerce Germanized Single Delivery Time Info"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:505
+msgid "Products Header"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:507 includes/vc-map/vc-map.php:528
+#: includes/vc-map/vc-map.php:588
+msgid "DT Product Category Page"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:526
+msgid "Products Shop Loop"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:530
+msgid "  "
+msgstr ""
+
+#: includes/vc-map/vc-map.php:548
+msgid "How much columns grid"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:586
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:610
+msgid "Cart Table"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:612 includes/vc-map/vc-map.php:633
+#: includes/vc-map/vc-map.php:654
+msgid "DT Woo Cart"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:631
+msgid "Cart Totals"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:652
+msgid "Cross Sells"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:697
+msgid "Checkout Before Customer Details"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:699 includes/vc-map/vc-map.php:721
+#: includes/vc-map/vc-map.php:742 includes/vc-map/vc-map.php:763
+#: includes/vc-map/vc-map.php:785
+msgid "DT Woo Checkout"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:701
+msgid "Required. Add before 'Billing Information element'."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:719
+msgid "Billing Information"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:740
+msgid "Shipping information form"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:761
+msgid "Checkout After Customer Details"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:765
+msgid "Required. Add after 'Shipping information form'."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:783
+msgid "Order review"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:805
+msgid "My Account Login Form"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:807 includes/vc-map/vc-map.php:828
+msgid "DT Woo My Account Before Login"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:826
+msgid "My Account Register Form"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:848
+msgid "My Account Dashboard"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:850 includes/vc-map/vc-map.php:881
+#: includes/vc-map/vc-map.php:903 includes/vc-map/vc-map.php:925
+#: includes/vc-map/vc-map.php:955 includes/vc-map/vc-map.php:977
+#: includes/vc-map/vc-map.php:1021
+msgid "DT Woo My Account"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:852
+msgid "Shows account dashboard."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:856
+msgid "Custom My Account Dashboard"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:861
+msgid ""
+"Overridden woocommerce/myaccount/dashboard.php. Leave blank to use the "
+"template dashboard.php file"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:879
+msgid "My Account Orders"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:883 includes/vc-map/vc-map.php:905
+msgid "Shows orders on the account page."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:901
+msgid "My Account Downloads"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:923
+msgid "My Account Addresses"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:927
+msgid "My Addresses."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:953
+msgid "My Account Details"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:957 includes/vc-map/vc-map.php:979
+msgid "Edit account form."
+msgstr ""
+
+#: includes/vc-map/vc-map.php:975
+msgid "My Account Payment methods"
+msgstr ""
+
+#: includes/vc-map/vc-map.php:1019
+msgid "My Account Logout"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:546
+#, php-format
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:549
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:861
+msgid "Your order"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:935
+#, php-format
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr ""
+
+#: includes/vc-shortcodes/vc-shortcodes.php:959
+#: includes/vc-shortcodes/vc-shortcodes.php:1042
+#: includes/vc-shortcodes/vc-shortcodes.php:1081
+#: includes/vc-shortcodes/vc-shortcodes.php:1104
+#: includes/vc-shortcodes/vc-shortcodes.php:1131
+msgid "You need first to be logged in"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-empty.php:33
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-totals.php:28
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-totals.php:33
+#: woocommerce-page-builder-templates/cart/cart-totals.php:34
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-totals.php:55
+#: woocommerce-page-builder-templates/cart/cart-totals.php:56
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-totals.php:71
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart-totals.php:92
+#: woocommerce-page-builder-templates/cart/cart-totals.php:93
+#: woocommerce-page-builder-templates/cart/cart.php:41
+#: woocommerce-page-builder-templates/cart/cart.php:122
+msgid "Total"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:38
+#: woocommerce-page-builder-templates/cart/cart.php:81
+msgid "Product"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:40
+#: woocommerce-page-builder-templates/cart/cart.php:105
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:62
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:94
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:140
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:140
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:140
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce-page-builder-templates/cart/cart.php:145
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce-page-builder-templates/checkout/before-form-checkout.php:19
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:27
+#: woocommerce-page-builder-templates/myaccount/form-login.php:46
+msgid "Login"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:34
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:38
+#: woocommerce-page-builder-templates/myaccount/form-register.php:52
+msgid "Password"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:48
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-login.php:52
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:29
+#: woocommerce-page-builder-templates/myaccount/form-register.php:66
+msgid "Register"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:38
+msgid "Username"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:45
+msgid "Email address"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/form-register.php:59
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/payment-methods.php:52
+#, php-format
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#: woocommerce-page-builder-templates/myaccount/payment-methods.php:73
+msgid "No saved methods found."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "DT WooCommerce Page Builder"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://dawnthemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"is the ideal Visual Composer add-on to effortlessly layout for WooCommerce "
+"and more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DawnThemes"
+msgstr ""

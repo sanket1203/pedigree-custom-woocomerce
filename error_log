@@ -1,0 +1,12 @@
+[11-May-2018 17:00:15 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
+[11-May-2018 17:00:15 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
+[25-May-2018 16:54:08 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
+[25-May-2018 16:54:09 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
+[25-May-2018 16:54:57 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
+[25-May-2018 16:54:57 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
+[25-May-2018 17:11:02 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
+[25-May-2018 17:11:02 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
+[26-May-2018 04:59:15 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
+[26-May-2018 04:59:15 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
+[26-May-2018 08:13:50 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
+[26-May-2018 08:13:51 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/tree9/public_html/wp-includes/wp-db.php on line 1942
