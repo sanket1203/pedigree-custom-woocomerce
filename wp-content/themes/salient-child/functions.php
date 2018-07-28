@@ -260,6 +260,24 @@ function woo_add_custom_autions_fields() {
 				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
 			)
 		);
+		
+		// Sire image 
+		$sire_image_id = get_post_meta(get_the_ID(),'_auction_sire_image',true);
+		WCVendors_Pro_Form_Helper::file_uploader( apply_filters( 'wcv_simple_auctions_sire_image', array(
+	            'value'             => $sire_image_id,
+				'size'				=> 'thumbnail',
+				'class'				=> 'animal_image',
+	            'image_meta_key'    => '_auction_sire_image',
+				'save_button'		=> __('Add image', 'wcvendors-pro' ), 
+				'header_text'		=> __('File uploader', 'wcvendors-pro' ), 
+				'add_text' 			=> __('Add Sire image', 'wcvendors-pro' ), 
+				'remove_text'		=> __('Remove image', 'wcvendors-pro' ), 	            
+				'window_title'		=> __('Select an Image', 'wcvendors-pro' ), 				
+	            'wrapper_start'         => '<div style="margin-left:10px;">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
 		woocommerce_wp_text_input( 
 			array( 
 				'id'          => '_auction_second_genration_one', 
@@ -334,6 +352,23 @@ function woo_add_custom_autions_fields() {
 				'description' => __( 'Enter the sire text.', 'woocommerce' ) 
 			)
 		);
+		// Dam image 
+		$dam_image_id = get_post_meta(get_the_ID(),'_auction_dam_image',true);
+		WCVendors_Pro_Form_Helper::file_uploader( apply_filters( 'wcv_simple_auctions_dam_image', array(
+	            'value'             => $dam_image_id,
+				'size'		        => 'thumbnail',
+				'class'				=> 'animal_image',
+	            'image_meta_key'        => '_auction_dam_image',
+				'save_button'		=> __('Add image', 'wcvendors-pro' ), 
+				'header_text'		=> __('File uploader', 'wcvendors-pro' ), 
+				'add_text' 			=> __('Add Dam image', 'wcvendors-pro' ), 
+				'remove_text'		=> __('Remove image', 'wcvendors-pro' ), 	            
+				'window_title'		=> __('Select an Image', 'wcvendors-pro' ), 				
+	            'wrapper_start'         => '<div style="margin-left:10px;">',
+	            'wrapper_end'           =>  '</div>'
+	            ) )
+	    );
+		
 		
 		woocommerce_wp_text_input( 
 			array( 
@@ -397,10 +432,67 @@ function woo_add_custom_autions_fields() {
 			)
 		);
 		
-		
-  
   echo '</div>';
-	
+?>
+<script type="text/javascript">
+jQuery(document).ready(function ($) {
+  $('.wcv-img-id').each( function () {
+	    var id = this.id; 
+		$('.wcv-file-uploader-add' + id ).on( 'click', function(e) { 
+			e.preventDefault(); 
+			file_uploader( id ); 
+			return false; 
+		}); 
+
+		$('.wcv-file-uploader-delete' + id ).on('click', function(e) { 
+			e.preventDefault(); 
+			// reset the data so that it can be removed and saved. 
+			$( '.wcv-file-uploader' + id ).html(''); 
+			$( 'input[id=' + id + ']').val(''); 
+			$('.wcv-file-uploader-delete' + id ).addClass('hidden'); 
+			$('.wcv-file-uploader-add' + id ).removeClass('hidden'); 
+		});
+
+	});
+
+	function file_uploader( id )
+	{
+		var media_uploader, json;
+		if (undefined !== media_uploader ) { 
+			media_uploader.open(); 
+			return; 
+		}
+
+	    media_uploader = wp.media({
+      		title: $( '#' + id ).data('window_title'), 
+      		button: {
+        		text: $( '#' + id ).data('save_button'), 
+      		},
+      		multiple: false 
+    	});
+
+	    media_uploader.on( 'select' , function(){
+	    	json = media_uploader.state().get('selection').first().toJSON(); 
+
+	    	if ( 0 > $.trim( json.url.length ) ) {
+		        return;
+		    }
+
+		    attachment_image_url = json.sizes.thumbnail ? json.sizes.thumbnail.url : json.url;
+
+		    $( '.wcv-file-uploader' + id )
+		    	.append( '<img src="'+ attachment_image_url + '" alt="' + json.caption + '" title="' + json.title +'" style="max-width: 100%;" />' ); 
+		    
+		    $('#' + id ).val( json.id ); 
+
+		    $('.wcv-file-uploader-add' + id ).addClass('hidden'); 
+		    $('.wcv-file-uploader-delete' + id ).removeClass('hidden'); 
+	    });
+	    media_uploader.open();
+	}
+});
+</script>
+<?php	
 }
 function getYoutubeEmbedUrl($url)
 {

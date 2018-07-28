@@ -61,20 +61,38 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 						),
 					) )
 				);
+				
+				$animal_sex = get_post_meta($object_id,'_auction_animal_sex',true);
+				$checked = '';$malechecked ='';
+				if(!empty($animal_sex)){
+					if($animal_sex =='male'){
+						$mchecked = "checked='checked'";
+					}else if($animal_sex =='female'){
+						$fchecked = "checked='checked'";
+					}else{
+						$checked = "";
+					}
+				}else{
+					$malechecked = "checked='checked'";
+				}
+					
+					
+				
 		echo '<div class="all-50 small-100">
 		<div class="control-group">
 				<label for="_auction_animal_sex" class="">Sex* </label>
 				<div class="control">
 					<div style="display:inline-block;padding: 5px 0 5px 4px;">
-					<input style="width:auto;" type="radio" id="_auction_animal_sex_male" name="_auction_animal_sex" value="male" checked>
+					<input style="width:auto;" type="radio" id="_auction_animal_sex_male" name="_auction_animal_sex" value="male" '.$mchecked.' '.$malechecked.' >
 					<label for="_auction_animal_sex_male" class="sexlabel">Male</label>
 					</div>
 					<div style="display:inline-block;padding: 5px 0 5px 4px;">
-					<input style="width:auto;" type="radio" id="_auction_animal_sex_female" name="_auction_animal_sex" value="female">
+					<input style="width:auto;" type="radio" id="_auction_animal_sex_female" name="_auction_animal_sex" value="female" '.$fchecked.' >
 					<lable for="_auction_animal_sex_female" class="sexlabel">Female</label>
 					</div>
 				</div>
 		</div></div></div>';	
+		
 		
 		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_date_of_birth', array( 
 			'post_id'		=> $object_id, 

@@ -517,10 +517,17 @@ class WC_Vendors_Simple_Auctions {
 	    );
 
 		// Sire File
+		$sire_image_id = get_post_meta($post_id,'_auction_sire_image',true);
 		WCVendors_Pro_Form_Helper::file_uploader( apply_filters( 'wcv_simple_auctions_sire_image', array(
-	            'post_id'               => $object_id,
+	            'value'               => $sire_image_id,
+				'size'				 => 'thumbnail',
+				'save_button'		=> __('Add image', 'wcvendors-pro' ), 
+				'header_text'		=> __('File uploader', 'wcvendors-pro' ), 
+				'add_text' 			=> __('Add Dam image', 'wcvendors-pro' ), 
+				'remove_text'		=> __('Remove image', 'wcvendors-pro' ), 	            
+				'window_title'		=> __('Select an Image', 'wcvendors-pro' ),
 	            'image_meta_key'        => '_auction_sire_image',
-	            'label'                 => __( '', 'wc_simple_auctions' ) ,	            
+	            'label'                 => __( '', 'wc_simple_auctions' ) ,
 	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-33 small-100">',
 	            'wrapper_end'           =>  '</div>'
 	            ) )
@@ -608,10 +615,16 @@ class WC_Vendors_Simple_Auctions {
 		
 		
 		// Sire File
+		$dam_image_id = get_post_meta($post_id,'_auction_dam_image',true);
 		WCVendors_Pro_Form_Helper::file_uploader( apply_filters( 'wcv_simple_auctions_dam_image', array(
-	            'post_id'               => $post_id,
+	            'value'               => $dam_image_id,
+				'size'				 => 'thumbnail',
 	            'image_meta_key'        => '_auction_dam_image',
-	            'label'                 => __( '', 'wc_simple_auctions' ) ,	            
+				'save_button'		=> __('Add image', 'wcvendors-pro' ), 
+				'header_text'		=> __('File uploader', 'wcvendors-pro' ), 
+				'add_text' 			=> __('Add Dam image', 'wcvendors-pro' ), 
+				'remove_text'		=> __('Remove image', 'wcvendors-pro' ), 	            
+				'window_title'		=> __('Select an Image', 'wcvendors-pro' ), 				
 	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-33 small-100">',
 	            'wrapper_end'           =>  '</div>'
 	            ) )

@@ -7083,3 +7083,13 @@ Stack trace:
 #7 /home/tree9/public_html/wp-includes/class-wp-hook.php(323): WP_Hook->apply_filters(NULL, Array)
 #8 /home/tree9
 
+2018-07-25T15:29:10+00:00 CRITICAL Call to undefined method WCVendors_Pro_Form_Helper::file()
+
+2018-07-25T15:48:27+00:00 CRITICAL Call to undefined method WCVendors_Pro_Form_Helper::file()
+
+2018-07-25T15:51:04+00:00 CRITICAL Call to undefined method WCVendors_Pro_Form_Helper::file()
+
+2018-07-25T15:51:29+00:00 CRITICAL Call to undefined method WCVendors_Pro_Form_Helper::file()
+
+2018-07-25T15:56:14+00:00 CRITICAL Call to undefined method WCVendors_Pro_Form_Helper::custom()
+
