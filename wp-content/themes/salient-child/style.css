@@ -8,7 +8,40 @@ Template: salient
 Version: 0.1
 */
 
+/*.ywcfav_video_content.vimeo{min-height:450px;}
+.ywcfav_video_content.vimeo iframe{height:450px !important;}
 
+.ywcfav_video_content.youtube{min-height:450px;}
+.ywcfav_video_content.youtube iframe{height:450px !important;}
+*/
+.flex-viewport{/* max-height:450px; */}
 
-
+.ywcfav_video_content
+{ 
+   /*position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;*/
+	
+ }
+ .ywcfav_video_content iframe, .ywcfav_video_content object, .ywcfav_video_content embed {
+	/*position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	*/
+ }
+.ywcfav_video_content.vimeo{
+	/*height:550px !important; */
+}
+.ywcfav_video_content.vimeo iframe { 
+/*height:550px !important; */
+}
+.wcv-navigation ul.menu.black li.active{
+    list-style-type: none;
+}
+.wcv-navigation ul.menu.horizontal li{
+list-style-type: none;
+}
 

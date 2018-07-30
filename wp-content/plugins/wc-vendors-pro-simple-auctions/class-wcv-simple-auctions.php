@@ -523,7 +523,7 @@ class WC_Vendors_Simple_Auctions {
 				'size'				 => 'thumbnail',
 				'save_button'		=> __('Add image', 'wcvendors-pro' ), 
 				'header_text'		=> __('File uploader', 'wcvendors-pro' ), 
-				'add_text' 			=> __('Add Dam image', 'wcvendors-pro' ), 
+				'add_text' 			=> __('Add Sire image', 'wcvendors-pro' ), 
 				'remove_text'		=> __('Remove image', 'wcvendors-pro' ), 	            
 				'window_title'		=> __('Select an Image', 'wcvendors-pro' ),
 	            'image_meta_key'        => '_auction_sire_image',

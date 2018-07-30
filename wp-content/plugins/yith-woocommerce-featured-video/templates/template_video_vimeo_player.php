@@ -16,7 +16,7 @@ $video_meta_id = "video_".$product_id
 ?>
 <div class="ywcfav_video_content vimeo" data-video_info="<?php echo $video_id.','.$video_type;?>">
     <div class="ywcfav_video_iframe">
-        <iframe id="<?php echo $video_meta_id;?>" type="text/html"  src="<?php echo $http;?>://player.vimeo.com/video/<?php echo $video_id;?>?api=1&player_id=<?php echo $video_meta_id;?>" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen >
+        <iframe type="text/html"  src="<?php echo $http;?>://player.vimeo.com/video/<?php echo $video_id;?>?api=1&player_id=<?php echo $video_meta_id;?>" width="599" height="660" frameborder="0" allowfullscreen>
 
         </iframe>
     </div>
