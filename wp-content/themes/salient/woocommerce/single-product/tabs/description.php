@@ -22,8 +22,8 @@ $heading = esc_html( apply_filters( 'woocommerce_product_description_heading', _
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/css/bootstrap.css'; ?>">
 
-<?php the_content();
-$videourl = get_post_meta(get_the_ID(),'_auction_animal_video',true);
+<div style="display:none;"><?php the_content(); ?></div>
+<?php $videourl = get_post_meta(get_the_ID(),'_auction_animal_video',true);
 if(!empty($videourl)){
 	$videofrom = '';
 	$videourl = getYoutubeEmbedUrl($videourl);

@@ -43,7 +43,7 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 		<?php WCVendors_Pro_Product_Form::title( $object_id, $product_title ); ?>
 		  <script>
 			jQuery(function($){
-				$("#_auction_date_of_birth").datepicker({ changeYear: true});
+				$("#_auction_date_of_birth").datepicker({ changeYear: true, dateFormat: 'yy-mm-dd'});
 			});
 		 </script>';
 		<?php
@@ -52,7 +52,7 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_reserved_price', array(
 	            'post_id'               => $object_id,
 	            'id'                    => '_auction_animal_id_tag',
-	            'label'                 => __( 'Animal id Tag', 'wc_simple_auctions' ),
+	            'label'                 => __( 'Animal Id Tag', 'wc_simple_auctions' ),
 	            'data_type'             => 'text',
 	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100">',
 	            'wrapper_end'           =>  '</div>',
@@ -114,7 +114,9 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 		
 		
 		<!-- Product Description -->
+	<div style="">
 		<?php WCVendors_Pro_Product_Form::description( $object_id, $product_description );  ?>
+	</div>	
 		<!-- Product Short Description -->
 		<?php WCVendors_Pro_Product_Form::short_description( $object_id, $product_short_description );  ?>
 		<!-- Product Categories -->

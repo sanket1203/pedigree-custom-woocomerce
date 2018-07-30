@@ -44,4 +44,25 @@ Version: 0.1
 .wcv-navigation ul.menu.horizontal li{
 list-style-type: none;
 }
-
+.animal_kg{
+	font-weight: 600;
+    background: #EEEEEE;
+    color: #000;
+    display: table-cell;
+    float: right;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 15px;
+    position: relative;
+    margin-top: -71px;
+    z-index: 9999999;
+}
+.weight-predictor{
+color:green !important;position: relative;float: left;margin-top: -40px !important;margin-left: 24px;
+}
+@media screen and (max-width: 640px) and (min-width: 321px)
+{
+	.weight-predictor{
+		margin-top: 0px  !important;	
+	}
+}

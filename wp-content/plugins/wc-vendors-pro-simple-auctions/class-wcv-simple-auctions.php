@@ -131,7 +131,7 @@ class WC_Vendors_Simple_Auctions {
 		
 		if ( $product_type == 'auction' ) {
 			
-			$post_id = $_POST['post_id'];
+			/*$post_id = $_POST['post_id'];
 			$post_content = $_POST['post_content'];
 			if(empty($post_content)){
 				$post_content = "&nbsp;";
@@ -141,6 +141,7 @@ class WC_Vendors_Simple_Auctions {
 			  'post_content'  => $post_content,
 			);
 			wp_update_post( $my_post );
+			*/
 
 		 	update_post_meta( $post_id, '_manage_stock', 'yes'  );
 		 	update_post_meta( $post_id, '_stock', '1'  );
@@ -303,7 +304,7 @@ class WC_Vendors_Simple_Auctions {
 	 * @since 1.0.0 
 	*/
 	public function auctions_form( $post_id ){ 
-
+		
 		echo '<div class="wcv-product-auction auction_product_data tabs-content" id="auction">'; 
 
 		// Item Condition
@@ -423,14 +424,15 @@ class WC_Vendors_Simple_Auctions {
 		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_birth_weight', array(
 	            'post_id'               => $post_id,
 	            'id'                    => '_auction_birth_weight',
+				'class'					=> 'form-control1',
 	            'label'                 => __( 'Birth Weight', 'wc_simple_auctions' ) ,
-	            'data_type'             => 'text',
+	            'data_type'             => 'text',				
 	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100">',
-	            'wrapper_end'           =>  '</div>'
+	            'wrapper_end'           =>  '<span class="animal_kg">KG</span></div>'
 	            ) )
 	    );
 		
-		echo "<h4 style='color:green;position: relative;float: left;margin-top: -40px;margin-left: 24px;'>Weight Predictor</h4>";
+		echo "<h4 class='weight-predictor' >Weight Predictor</h4>";
 		// Yearling Weight 		
 		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_expecated_sale_weight', array(
 	            'post_id'               => $post_id,
@@ -438,7 +440,7 @@ class WC_Vendors_Simple_Auctions {
 	            'label'                 => __( 'Expected Sale Weight', 'wc_simple_auctions' ) ,
 	            'data_type'             => 'text',
 	            'wrapper_start'         => '<div class="all-50 small-100">',
-	            'wrapper_end'           =>  '</div></div>'
+	            'wrapper_end'           =>  '</div><span class="animal_kg">KG</span></div>'
 	            ) )
 	    );
 		
@@ -451,7 +453,7 @@ class WC_Vendors_Simple_Auctions {
 	            'label'                 => __( 'Weaning Weight', 'wc_simple_auctions' ) ,
 	            'data_type'             => 'text',
 	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100">',
-	            'wrapper_end'           =>  '</div>'
+	            'wrapper_end'           =>  '<span class="animal_kg">KG</span></div>'
 	            ) )
 	    );
 		
@@ -462,7 +464,7 @@ class WC_Vendors_Simple_Auctions {
 	            'label'                 => __( 'Average Daily Gain', 'wc_simple_auctions' ) ,
 	            'data_type'             => 'text',
 	            'wrapper_start'         => '<div class="all-50 small-100">',
-	            'wrapper_end'           =>  '</div></div>'
+	            'wrapper_end'           =>  '<span class="animal_kg">KG</span></div></div>'
 	            ) )
 	    );
 		
@@ -473,7 +475,7 @@ class WC_Vendors_Simple_Auctions {
 	            'label'                 => __( 'Yearling Weight', 'wc_simple_auctions' ) ,
 	            'data_type'             => 'text',
 	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100">',
-	            'wrapper_end'           =>  '</div></div>'
+	            'wrapper_end'           =>  '<span class="animal_kg">KG</span></div></div>'
 	            ) )
 	    );
 		
