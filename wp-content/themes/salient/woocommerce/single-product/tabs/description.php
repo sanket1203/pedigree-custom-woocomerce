@@ -85,27 +85,27 @@ $dam_third_genration_four  = get_post_meta(get_the_ID(),'_auction_dam_third_genr
 									<div class="grid_animal_name">Birth Weight:</div>
 									<div class="grid_animal_value"><?php if(!empty($birth_weight)){ echo $birth_weight; }else{ echo "-"; } ?></div>
 								</div> 
-								<div class="grid_animal_odd">
+								<div class="grid_animal_odd" style="display:none;">
 									<div class="grid_animal_name">Weaning Weight:</div>
 									<div class="grid_animal_value"><?php if(!empty($weaning_weight)){ echo $weaning_weight; }else{ echo "-"; } ?></div>
 								</div> 
-								<div class="grid_animal_even">
+								<div class="grid_animal_odd">
 									<div class="grid_animal_name">Yearling Weight:</div>
 									<div class="grid_animal_value"><?php if(!empty($yearling_weight)){ echo $yearling_weight; }else{ echo "-"; } ?></div>
 								</div> 
-								<div class="grid_animal_odd">
+								<div class="grid_animal_even">
 									<div class="grid_animal_name">Expected Sale Weight:</div>
 									<div class="grid_animal_value"><?php if(!empty($expecated_sale_weight)){ echo $expecated_sale_weight; }else{ echo "-"; } ?></div>
 								</div> 
-								<div class="grid_animal_even">
+								<div class="grid_animal_odd">
 									<div class="grid_animal_name">Average Daily Gain:</div>
 									<div class="grid_animal_value"><?php if(!empty($daily_gain_weight)){ echo $daily_gain_weight; }else{ echo "-"; } ?></div>
 								</div>
-								<div class="grid_animal_odd">
-									<div class="grid_animal_name">Sex:</div>
-									<div class="grid_animal_value"><?php if(!empty($_auction_animal_sex)){ echo $_auction_animal_sex; }else{ echo "-"; } ?></div>
-								</div>
 								<div class="grid_animal_even">
+									<div class="grid_animal_name">Sex:</div>
+									<div class="grid_animal_value"><?php if(!empty($_auction_animal_sex)){ echo ucfirst($_auction_animal_sex); }else{ echo "-"; } ?></div>
+								</div>
+								<div class="grid_animal_odd">
 									<div class="grid_animal_name">Animal ID Tag:</div>
 									<div class="grid_animal_value"><?php if(!empty($_auction_animal_id_tag)){ echo $_auction_animal_id_tag; }else{ echo "-"; } ?></div>
 								</div>

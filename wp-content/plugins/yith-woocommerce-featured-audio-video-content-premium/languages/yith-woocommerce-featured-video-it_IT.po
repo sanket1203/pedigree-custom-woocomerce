@@ -1,0 +1,540 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Featured Video\n"
+"POT-Creation-Date: 2015-09-22 11:25+0200\n"
+"PO-Revision-Date: 2015-09-22 11:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;_ngettext_noop:1,2;"
+"_n_nooop:1,2;_c,_nc:4c,1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:108
+#: ../plugin-options/general-settings-options.php:10
+msgid "Modal Settings"
+msgstr "Impostazioni finestra modale"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:109
+#: ../plugin-options/video-settings-options.php:10
+msgid "Video Settings"
+msgstr "Impostazioni video"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:110
+msgid "Audio Settings"
+msgstr "Impostazioni audio"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:424
+#: ../templates/admin/lightbox.php:55
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:100
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:137
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:49
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:81
+msgid "Add Video"
+msgstr "Aggiungi video"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:429
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:49
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:34
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:82
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:18
+msgid "Select Thumbnail"
+msgstr "Seleziona miniatura"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:430
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:86
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:43
+msgid "Remove Video"
+msgstr "Rimuovi video"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:431
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:50
+msgid "Remove Audio"
+msgstr "Rimuovi audio"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:432
+msgid ""
+"You have already selected a video product as featured, do you want to "
+"replace it with this one?"
+msgstr ""
+"Hai già impostato un prodotto video in evidenza, vuoi sostituirlo con questo?"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:433
+msgid ""
+"You have already selected a audio product as featured, do you want to "
+"replace it with this one?"
+msgstr ""
+"Hai già impostato un prodotto audio in evidenza, vuoi sostituirlo con questo?"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:434
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:59
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:37
+msgid "ERROR"
+msgstr "ERRORE"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:435
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:60
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:38
+msgid "The thumbnail image is too small"
+msgstr "L'immagine di anteprima è troppo piccola"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:437
+msgid "Single Track"
+msgstr "Brano singolo"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:438
+msgid "Playlist"
+msgstr "Elenco di riproduzione"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:439
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:17
+msgid "Featured Video"
+msgstr "Video in evidenza"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:493
+msgid "Video"
+msgstr "Video"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:498
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:17
+msgid "Audio"
+msgstr "Audio"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:110
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:112
+msgid "Premium live demo"
+msgstr "Anteprima versione premium"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:112
+msgid "Live demo"
+msgstr "Anteprima"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:117
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:196
+msgid "Premium Version"
+msgstr "Versione premium"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:144
+msgid "Plugin Documentation"
+msgstr "Documentazione plugin"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:202
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:203
+msgid "Featured Audio & Video Content"
+msgstr "Featured Audio & Video Content"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:220
+msgid "Featured Video URL"
+msgstr "URL video in evidenza"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:221
+#: ../templates/admin/lightbox.php:70
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:123
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:65
+msgid "Video URL"
+msgstr "URL video"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:223
+#, php-format
+msgid ""
+"Enter the URL for the video you want to show in place of the featured image "
+"in the product detail page (the services allowed are: %s)."
+msgstr ""
+"Inserisci l'URL del video che vuoi mostrare al posto dell'immagine in "
+"evidenza nella pagina dettaglio del prodotto (i servizi disponibili sono: "
+"%s)."
+
+#: ../init.php:46
+msgid ""
+"YITH WooCommerce Featured Audio & Video Content Premium is enabled but not "
+"effective. It requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Featured Audio & Video Content Premium è abilitato ma non "
+"in funzione. Devi installare WooCommerce affinché questo possa funzionare."
+
+#: ../plugin-options/audio-settings-options.php:10
+msgid "SoundCloud Settings"
+msgstr "Impostazioni SoundCloud"
+
+#: ../plugin-options/audio-settings-options.php:15
+msgid "Show Artwork"
+msgstr "Mostra immagine"
+
+#: ../plugin-options/audio-settings-options.php:21
+#: ../plugin-options/video-settings-options.php:26
+msgid "AutoPlay"
+msgstr "Riproduzione automatica"
+
+#: ../plugin-options/audio-settings-options.php:28
+#: ../plugin-options/video-settings-options.php:55
+msgid "Volume"
+msgstr "Volume"
+
+#: ../plugin-options/audio-settings-options.php:29
+#: ../plugin-options/video-settings-options.php:56
+msgid "Set volume, 0 mute , 1 high volume"
+msgstr "Imposta il volume, 0 muto, 1 volume alto"
+
+#: ../plugin-options/audio-settings-options.php:40
+msgid "Show Comments"
+msgstr "Mostra commenti"
+
+#: ../plugin-options/audio-settings-options.php:41
+msgid "Hide/Show comments"
+msgstr "Nascondi/Mostra commenti"
+
+#: ../plugin-options/audio-settings-options.php:48
+msgid "Show sharing button"
+msgstr "Mostra pulsante di condivisione"
+
+#: ../plugin-options/audio-settings-options.php:55
+msgid "Color"
+msgstr "Colore"
+
+#: ../plugin-options/general-settings-options.php:16
+msgid "Modal Width"
+msgstr "Larghezza finestra modale"
+
+#: ../plugin-options/general-settings-options.php:17
+msgid "Width of modal window"
+msgstr "Larghezza della finestra modale"
+
+#: ../plugin-options/general-settings-options.php:27
+msgid "Modal Height"
+msgstr "Altezza finestra modale"
+
+#: ../plugin-options/general-settings-options.php:28
+msgid "Height of modal window"
+msgstr "Altezza della finestra modale"
+
+#: ../plugin-options/general-settings-options.php:39
+msgid "Video in modal"
+msgstr "Video nella finestra modale"
+
+#: ../plugin-options/general-settings-options.php:40
+msgid "Show featured video in a modal window"
+msgstr "Mostra il video in evidenza in una finestra modale"
+
+#: ../plugin-options/general-settings-options.php:47
+msgid "Audio in modal"
+msgstr "Audio nella finestra modale"
+
+#: ../plugin-options/general-settings-options.php:48
+msgid "Show featured audio in a modal window"
+msgstr "Mostra l'audio in evidenza in una finestra modale"
+
+#: ../plugin-options/general-settings-options.php:56
+msgid "Modal displaying effect"
+msgstr "Effetti di visualizzazione finestra modale"
+
+#: ../plugin-options/general-settings-options.php:59
+#: ../plugin-options/video-settings-options.php:48
+msgid "None"
+msgstr "Nessuno"
+
+#: ../plugin-options/general-settings-options.php:60
+msgid "Huge Inc"
+msgstr "Huge Inc"
+
+#: ../plugin-options/general-settings-options.php:61
+msgid "Corner"
+msgstr "Corner"
+
+#: ../plugin-options/general-settings-options.php:62
+msgid "Slide down"
+msgstr "Slide down"
+
+#: ../plugin-options/general-settings-options.php:63
+msgid "Scale"
+msgstr "Scale"
+
+#: ../plugin-options/general-settings-options.php:64
+msgid "Little genie"
+msgstr "Little genie"
+
+#: ../plugin-options/video-settings-options.php:18
+msgid "Player Controls"
+msgstr "Comandi lettore"
+
+#: ../plugin-options/video-settings-options.php:19
+msgid "This option sets whether the player has usable controls by users"
+msgstr ""
+"Questa opzione ti permette di attivare o disattivare i comandi di controllo "
+"per gli utenti"
+
+#: ../plugin-options/video-settings-options.php:27
+msgid "If checked, the video will start playing as soon as page is loaded"
+msgstr ""
+"Se selezionata, la riproduzione del video inizierà non appena la pagina sarà "
+"stata caricata"
+
+#: ../plugin-options/video-settings-options.php:34
+msgid "Loop"
+msgstr "Ciclo continuo"
+
+#: ../plugin-options/video-settings-options.php:35
+msgid "The loop attribute causes the video to start over as soon as it ends"
+msgstr ""
+"Questo valore farà ricominciare la riproduzione del video non appena questo "
+"sarà terminato"
+
+#: ../plugin-options/video-settings-options.php:42
+msgid "Preload"
+msgstr "Precaricamento"
+
+#: ../plugin-options/video-settings-options.php:43
+msgid ""
+"The preload attribute informs the browser whether video data should be "
+"downloaded as soon as video tag is loaded"
+msgstr ""
+"Questo valore comunica al browser se i dati video debbano essere scaricati "
+"non appena il tag video viene caricato"
+
+#: ../plugin-options/video-settings-options.php:46
+msgid "Auto"
+msgstr "Auto"
+
+#: ../plugin-options/video-settings-options.php:47
+msgid "Metadata"
+msgstr "Metadata"
+
+#: ../plugin-options/video-settings-options.php:68
+msgid "Stoppable videos"
+msgstr "Video interrompibili"
+
+#: ../plugin-options/video-settings-options.php:69
+msgid "Allow users to pause videos"
+msgstr "Permetti agli utenti di mettere in pausa i video"
+
+#: ../plugin-options/video-settings-options.php:84
+msgid "Video Player Style"
+msgstr "Stile lettore video"
+
+#: ../plugin-options/video-settings-options.php:90
+msgid "Style"
+msgstr "Stile"
+
+#: ../plugin-options/video-settings-options.php:93
+msgid "Default"
+msgstr "Predefinito"
+
+#: ../plugin-options/video-settings-options.php:94
+msgid "Custom"
+msgstr "Personalizzato"
+
+#: ../plugin-options/video-settings-options.php:101
+msgid "Main Font Colors"
+msgstr "Colori carattere principale"
+
+#: ../plugin-options/video-settings-options.php:102
+msgid "The colors of text the icons (icon font)"
+msgstr "I colori del testo delle icone (icona font)"
+
+#: ../plugin-options/video-settings-options.php:109
+msgid "Control background color"
+msgstr "Colore sfondo lettore"
+
+#: ../plugin-options/video-settings-options.php:110
+msgid ""
+"The default background color of the controls is black, with a little bit of "
+"blue so it can still be seen on all black video frames, which are common."
+msgstr ""
+"Il colore di sfondo predefinito è nero, con una leggera gradazione di blu "
+"così da poter essere visibile all'interno delle cornici video nere moto "
+"comuni."
+
+#: ../plugin-options/video-settings-options.php:117
+msgid "Control background Alpha"
+msgstr "Trasparenza sfondo del lettore"
+
+#: ../plugin-options/video-settings-options.php:118
+#: ../plugin-options/video-settings-options.php:147
+#, php-format
+msgid "1.0 = 100% opacity, 0.0 = 0% opacity"
+msgstr "1.0 = 100% opacità, 0.0 = 0% opacità"
+
+#: ../plugin-options/video-settings-options.php:130
+msgid "Slider Color"
+msgstr "Colore slider"
+
+#: ../plugin-options/video-settings-options.php:131
+msgid "The slider bar color is used for the progress bar and the volume bar"
+msgstr ""
+"Il colore della barra dello slider si applica alla barra del progresso e del "
+"volume"
+
+#: ../plugin-options/video-settings-options.php:138
+msgid "Slider background color"
+msgstr "Colore di sfondo dello slider"
+
+#: ../plugin-options/video-settings-options.php:146
+msgid "Slider background Alpha"
+msgstr "Trasparenza sfondo dello slider"
+
+#: ../plugin-options/video-settings-options.php:159
+msgid "Big Play Button Border Color"
+msgstr "Colore bordi pulsante grande di riproduzione"
+
+#: ../templates/admin/lightbox.php:26
+msgid "Add shortcode"
+msgstr "Aggiungi shortcode"
+
+#: ../templates/admin/lightbox.php:51
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:96
+msgid "Video Name"
+msgstr "Nome video"
+
+#: ../templates/admin/lightbox.php:57
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:102
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:51
+msgid "Select By..."
+msgstr "Seleziona per..."
+
+#: ../templates/admin/lightbox.php:58
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:103
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:52
+msgid "By ID"
+msgstr "ID"
+
+#: ../templates/admin/lightbox.php:59
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:104
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:53
+msgid "By URL"
+msgstr "URL"
+
+#: ../templates/admin/lightbox.php:60
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:105
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:54
+msgid "By Embedded code"
+msgstr "Codice di incorporamento"
+
+#: ../templates/admin/lightbox.php:61
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:106
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:55
+msgid "By Upload"
+msgstr "Caricamento"
+
+#: ../templates/admin/lightbox.php:65
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:117
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:60
+msgid "Video ID"
+msgstr "ID video"
+
+#: ../templates/admin/lightbox.php:66 ../templates/admin/lightbox.php:71
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:118
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:124
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:60
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:65
+msgid "YouTube and Vimeo are supported"
+msgstr "YouTube e Vimeo sono supportati"
+
+#: ../templates/admin/lightbox.php:75
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:128
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:69
+msgid "Embedded code"
+msgstr "Codice di incorporamento"
+
+#: ../templates/admin/lightbox.php:79
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:132
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:84
+msgid "Upload"
+msgstr "Caricamento"
+
+#: ../templates/admin/lightbox.php:85
+msgid "Insert"
+msgstr "Aggiungi"
+
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:27
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:19
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:28
+msgid "Name"
+msgstr "Nome"
+
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:29
+msgid "Type"
+msgstr "Tipo"
+
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:30
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:20
+msgid "Featured"
+msgstr "In evidenza"
+
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:110
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:74
+msgid "Host"
+msgstr "Servizio"
+
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:112
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:76
+msgid "YouTube"
+msgstr "YouTube"
+
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:113
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:77
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../templates/metaboxes/class.yith-wcfav-video-metabox.php:132
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:84
+msgid "Select Video"
+msgstr "Seleziona video"
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:8
+msgid ""
+"Insert the <a target=\"_blank\" href=\"http://soundcloud.com/\">SoundCloud."
+"com</a> song URL."
+msgstr ""
+"Inserisci l'URL del brano di <a target=\"_blank\" href=\"http://soundcloud."
+"com/\">SoundCloud.com</a>."
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:18
+msgid "Url(s)"
+msgstr "URL"
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:60
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:68
+msgid "Add Audio Track"
+msgstr "Aggiungi brano"
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:66
+msgid "Audio URL"
+msgstr "URL brano"
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:82
+msgid "Add Thumbnail"
+msgstr "Aggiungi miniatura"
+
+#: ../templates/template_gallery_video_player.php:67
+#: ../templates/template_video_player.php:66
+msgid "This video has been blocked because its contents are under copyright."
+msgstr ""
+"Questo video è stato bloccato poiché contiene contenuti sotto copyright."
+
+#: ../templates/template_no_video.php:29
+msgid "Placeholder"
+msgstr "Segnaposto"
+
+#~ msgid "The colors of text the icons (font icons)"
+#~ msgstr "I colori del testo e delle icone (carattere delle icone)"
+
+#~ msgid ""
+#~ "Enter the URL for the video you want to show in place of the featured "
+#~ "image in the product detail page. (the services enabled are: %s)."
+#~ msgstr ""
+#~ "Inserisci l'URL del video che vuoi mostrare al posto dell'immagine in "
+#~ "evidenza nella pagina dettaglio del prodotto (i servizi disponibili sono: "
+#~ "%s)."

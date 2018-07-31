@@ -1,0 +1,631 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Featured Video\n"
+"POT-Creation-Date: 2017-04-12 15:10+0200\n"
+"PO-Revision-Date: 2016-01-18 15:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;_ngettext_noop:1,2;"
+"_n_nooop:1,2;_c,_nc:4c,1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:147
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:138
+#: ../plugin-options/general-settings-options.php:10
+msgid "Modal Settings"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:148
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:201
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:139
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:197
+msgid "Video Settings"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:149
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:140
+msgid "Audio Settings"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:150
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:141
+msgid "Addons"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:481
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:421
+#: ../templates/metaboxes/views/html-product-audio.php:48
+#: ../templates/metaboxes/views/html-product-variation-video.php:37
+#: ../templates/metaboxes/views/html-product-video.php:56
+msgid ""
+"The thumbnail image is too small, in this way the featured image will show a "
+"grainy picture"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:482
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:422
+#: ../templates/metaboxes/views/html-product-audio.php:49
+#: ../templates/metaboxes/views/html-product-variation-video.php:38
+#: ../templates/metaboxes/views/html-product-video.php:57
+msgid "Please, load a bigger thumbnail image"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:490
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:430
+msgid "ERROR"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:493
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:433
+msgid "Please select a Video"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:554
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:509
+#: ../templates/metaboxes/views/html-product-variation-video.php:81
+#: ../templates/metaboxes/views/html-product-video.php:99
+msgid "Video"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:559
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:514
+msgid "Audio"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content-premium.php:887
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:981
+msgid "Featured Video or Audio"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:116
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:112
+msgid "Settings"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:118
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:114
+msgid "Premium live demo"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:118
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:114
+msgid "Live demo"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:123
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:202
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:119
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:198
+msgid "Premium Version"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:150
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:146
+msgid "Plugin Documentation"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:208
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:209
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:204
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:205
+#: ../templates/metaboxes/views/html-product-variation-video.php:23
+msgid "Featured Video"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:226
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:222
+msgid "Featured Video URL"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:227
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:223
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:64
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:41
+msgid "Video URL"
+msgstr ""
+
+#: ../includes/classes/class.yith-woocommerce-audio-video-content.php:229
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content.php:225
+#, php-format
+msgid ""
+"Enter the URL for the video you want to show in place of the featured image "
+"in the product detail page. (the services enabled are: %s)."
+msgstr ""
+
+#: ../includes/classes/third-party/class.yith-wc-avada-module.php:57
+#: ../includes/classes/third-party/class.yith-wc-bigpoint-module.php:58
+#: ../includes/classes/wc_2_6/class.yith-woocommerce-audio-video-content-premium.php:174
+msgid "Placeholder"
+msgstr ""
+
+#: ../init.php:44
+msgid ""
+"YITH WooCommerce Featured Audio and Video Content Premium is enabled but not "
+"effective. It requires WooCommerce in order to work."
+msgstr ""
+
+#: ../plugin-options/addon-settings-options.php:11
+msgid "YITH Zoom Magnifier Option"
+msgstr ""
+
+#: ../plugin-options/addon-settings-options.php:16
+msgid "Video and Audio in the slider"
+msgstr ""
+
+#: ../plugin-options/addon-settings-options.php:17
+msgid ""
+"It shows audios and videos in slider, replacing the featured image. This "
+"option is possible only if YITH WooCommerce Zoom Magnifier is enabled."
+msgstr ""
+
+#: ../plugin-options/audio-settings-options.php:10
+msgid "SoundCloud Settings"
+msgstr ""
+
+#: ../plugin-options/audio-settings-options.php:15
+msgid "Show Artwork"
+msgstr ""
+
+#: ../plugin-options/audio-settings-options.php:21
+#: ../plugin-options/video-settings-options.php:32
+msgid "AutoPlay"
+msgstr ""
+
+#: ../plugin-options/audio-settings-options.php:28
+#: ../plugin-options/video-settings-options.php:47
+msgid "Volume"
+msgstr ""
+
+#: ../plugin-options/audio-settings-options.php:29
+#: ../plugin-options/video-settings-options.php:48
+msgid "Set volume, 0 mute , 1 high volume"
+msgstr ""
+
+#: ../plugin-options/audio-settings-options.php:40
+msgid "Show Comments"
+msgstr ""
+
+#: ../plugin-options/audio-settings-options.php:41
+msgid "Hide/Show comments"
+msgstr ""
+
+#: ../plugin-options/audio-settings-options.php:48
+msgid "Show sharing button"
+msgstr ""
+
+#: ../plugin-options/audio-settings-options.php:55
+#: ../plugin-options/video-settings-options.php:110
+#: ../plugin-options/video-settings-options.php:135
+msgid "Color"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:16
+msgid "Video in modal"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:17
+msgid "Show featured video in a modal window"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:24
+msgid "Audio in modal"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:25
+msgid "Show featured audio in a modal window"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:33
+msgid "Modal displaying effect"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:36
+#: ../templates/metaboxes/views/html-product-variation-video.php:18
+#: ../templates/metaboxes/views/html-product-video.php:28
+msgid "None"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:37
+msgid "Huge Inc"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:38
+msgid "Corner"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:39
+msgid "Slide down"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:40
+msgid "Scale"
+msgstr ""
+
+#: ../plugin-options/general-settings-options.php:41
+msgid "Little genie"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:10
+msgid "General Settings"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:16
+msgid "Aspect Ratio"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:19
+msgid "Choose the aspect ratio for your video"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:24
+msgid "Player Controls"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:25
+msgid ""
+"This option sets whether the player has usable controls by users. ( Only on "
+"Youtube and Video uploaded )."
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:33
+msgid "If checked, the video will start playing as soon as page is loaded"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:40
+msgid "Loop"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:41
+msgid "The loop attribute causes the video to start over as soon as it ends"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:60
+msgid "Stoppable videos"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:61
+msgid "Allow users to pause videos"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:74
+msgid "Youtube Settings"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:81
+msgid "Show Info"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:84
+msgid "Show video title before playing"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:89
+msgid "Autohide"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:92
+msgid ""
+"If checked, the progress bar of the video and the player controls disappear "
+"automatically a few seconds after play."
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:96
+msgid "Show Related"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:99
+msgid "If selected, it shows related videos when the video ends"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:103
+msgid "Theme"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:105
+msgid "Dark"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:105
+msgid "Light"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:112
+msgid "Red"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:112
+msgid "White"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:114
+msgid "Sets the color used in the player progress bar"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:125
+msgid "Vimeo Settings"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:129
+msgid "Show Video Title"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:148
+msgid "VideoJS Player Style"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:155
+msgid "Style"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:158
+msgid "Default"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:159
+msgid "Custom"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:166
+msgid "Main Font Colors"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:167
+msgid "The colors of text the icons (icon font)"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:174
+msgid "Control background color"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:175
+msgid ""
+"The default background color of the controls is black, with a little bit of "
+"blue so it can still be seen on all black video frames, which are common."
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:182
+msgid "Control background Alpha"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:183
+#: ../plugin-options/video-settings-options.php:212
+#, php-format
+msgid "1.0 = 100% opacity, 0.0 = 0% opacity"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:195
+msgid "Slider Color"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:196
+msgid "The slider bar color is used for the progress bar and the volume bar"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:203
+msgid "Slider background color"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:211
+msgid "Slider background Alpha"
+msgstr ""
+
+#: ../plugin-options/video-settings-options.php:224
+msgid "Big Play Button Border Color"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-audio.php:21
+#: ../templates/metaboxes/views/html-product-video.php:26
+msgid "Featured"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-audio.php:26
+#: ../templates/metaboxes/views/html-product-video.php:33
+msgid "Remove"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-audio.php:36
+msgid "Audio Thumbnail:"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-audio.php:37
+#: ../templates/metaboxes/views/html-product-variation-video.php:24
+#: ../templates/metaboxes/views/html-product-video.php:44
+msgid "Select Thumbnail"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-audio.php:47
+#: ../templates/metaboxes/views/html-product-variation-video.php:36
+#: ../templates/metaboxes/views/html-product-video.php:55
+msgid "WARNING"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-audio.php:57
+msgid "Audio Title"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-audio.php:61
+msgid "Audio Url"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-variation-video.php:46
+#: ../templates/metaboxes/views/html-product-video.php:65
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:32
+msgid "Video Title"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-variation-video.php:52
+#: ../templates/metaboxes/views/html-product-video.php:69
+msgid "Video Host:"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-variation-video.php:62
+#: ../templates/metaboxes/views/html-product-video.php:81
+msgid "Id"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-variation-video.php:66
+#: ../templates/metaboxes/views/html-product-video.php:85
+msgid "Url"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-variation-video.php:71
+#: ../templates/metaboxes/views/html-product-video.php:90
+msgid "Embedded Code"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-variation-video.php:76
+#: ../templates/metaboxes/views/html-product-video.php:94
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:73
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:60
+msgid "Upload"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-variation-video.php:91
+msgid "Remove Video"
+msgstr ""
+
+#: ../templates/metaboxes/views/html-product-video.php:43
+msgid "Video Thumbnail:"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:11
+msgid "Insert the"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:11
+msgid "SoundCloud.com"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:11
+msgid "song URL"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:16
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:13
+msgid "Expand"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:16
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:13
+msgid "Close"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:18
+msgid "Product Audio"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:40
+msgid "Audio Name"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:46
+msgid "Audio URL"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-audio-metabox.php:50
+msgid "Add Audio Track"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-select-video-featured-metabox.php:16
+msgid "Choose featured content"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:15
+msgid "Product Video"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:37
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:78
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:21
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:57
+msgid "Add Video"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:39
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:23
+msgid "Select By..."
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:40
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:24
+msgid "By ID"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:41
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:25
+msgid "By URL"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:42
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:26
+msgid "By Embedded code"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:43
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:27
+msgid "By Upload"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:47
+msgid "Video Name"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:51
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:50
+msgid "Host"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:53
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:52
+msgid "YouTube"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:54
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:53
+msgid "Vimeo"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:58
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:36
+msgid "Video ID"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:59
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:65
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:36
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:41
+msgid "YouTube and Vimeo are supported"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:69
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:45
+msgid "Embedded code"
+msgstr ""
+
+#: ../templates/metaboxes/yith-wcfav-video-metabox.php:73
+#: ../templates/metaboxes/yith-wcfav-video-product-variations.php:60
+msgid "Select Video"
+msgstr ""
+
+#: ../templates/modal_view/modal_video_player.php:49
+#: ../templates/template_video_player.php:60
+msgid "This video has been blocked because its contents are under copyright."
+msgstr ""
+
+#: ../templates/woocommerce/single-product/product-audio-thumbnails.php:25
+msgid "Featured Audios"
+msgstr ""
+
+#: ../templates/woocommerce/single-product/product-video-thumbnails.php:14
+msgid "Featured Videos"
+msgstr ""

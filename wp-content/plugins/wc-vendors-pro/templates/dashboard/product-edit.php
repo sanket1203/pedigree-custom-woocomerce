@@ -114,7 +114,7 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 		
 		
 		<!-- Product Description -->
-	<div style="">
+	<div style="opacity:0;position:absolute;">
 		<?php WCVendors_Pro_Product_Form::description( $object_id, $product_description );  ?>
 	</div>	
 		<!-- Product Short Description -->

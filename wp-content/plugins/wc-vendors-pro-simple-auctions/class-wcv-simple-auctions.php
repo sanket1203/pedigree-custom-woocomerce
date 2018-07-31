@@ -131,17 +131,20 @@ class WC_Vendors_Simple_Auctions {
 		
 		if ( $product_type == 'auction' ) {
 			
-			/*$post_id = $_POST['post_id'];
+			//$post_id = $_POST['post_id'];
+		//	print_r($_POST);
 			$post_content = $_POST['post_content'];
 			if(empty($post_content)){
-				$post_content = "&nbsp;";
+				$post_content = "testing";
 			}
+			//echo $post_content."---hi";
+			//exit;
 			$my_post = array(
   		      'ID' =>  $post_id,
 			  'post_content'  => $post_content,
 			);
 			wp_update_post( $my_post );
-			*/
+			
 
 		 	update_post_meta( $post_id, '_manage_stock', 'yes'  );
 		 	update_post_meta( $post_id, '_stock', '1'  );
