@@ -307,7 +307,14 @@ class WC_Vendors_Simple_Auctions {
 	 * @since 1.0.0 
 	*/
 	public function auctions_form( $post_id ){ 
+	// load jquery-ui-datetimepicker style 
+
+?>
+<link rel='stylesheet' id='wcv-datetimepicker-style-css' href='<?php echo get_stylesheet_directory_uri(); ?>/jquery.datetimepicker.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/jquery.datetimepicker.full.js'></script>
+<?php
 		
+			
 		echo '<div class="wcv-product-auction auction_product_data tabs-content" id="auction">'; 
 
 		// Item Condition
@@ -395,11 +402,12 @@ class WC_Vendors_Simple_Auctions {
 			'post_id'		=> $post_id, 
 			'id' 			=> '_auction_dates_from', 
 			'label' 		=> __( 'From', 'wcvendors-pro-simple-auctions' ), 
-			'class'			=> 'wcv-datepicker', 
+			'class'			=> 'wcv-datetimepicker', 
 			'placeholder'	=> __( 'From&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD',  
 			'wrapper_start' => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100 ">',
 			'wrapper_end' 	=> '</div>', 
 			'custom_attributes' => array(
+				'autocomplete' => 'off',
 				'maxlenth' 	=> '10', 
 				'pattern' 	=> '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])'
 				),
@@ -410,12 +418,13 @@ class WC_Vendors_Simple_Auctions {
 			'post_id'			=> $post_id, 
 			'id' 				=> '_auction_dates_to', 
 			'label' 			=> __( 'To1', 'wcvendors-pro-simple-auctions' ), 
-			'class'				=> 'wcv-datepicker', 
+			'class'				=> 'wcv-datetimepicker', 
 			'placeholder'		=> __( 'To&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD', 
 			'wrapper_start' 	=> '<div class="all-50 small-100">',
 			'wrapper_end' 		=> '</div></div>', 
 			'desc_tip'			=> true, 
 			'custom_attributes' => array(
+				'autocomplete' => 'off',
 				'maxlenth' 		=> '10', 
 				'pattern' 		=> '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])'
 				),

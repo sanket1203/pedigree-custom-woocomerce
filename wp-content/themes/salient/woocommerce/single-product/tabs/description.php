@@ -83,23 +83,23 @@ $dam_third_genration_four  = get_post_meta(get_the_ID(),'_auction_dam_third_genr
 								</div> 
 								<div class="grid_animal_even">
 									<div class="grid_animal_name">Birth Weight:</div>
-									<div class="grid_animal_value"><?php if(!empty($birth_weight)){ echo $birth_weight; }else{ echo "-"; } ?></div>
+									<div class="grid_animal_value"><?php if(!empty($birth_weight)){ echo $birth_weight." KG"; }else{ echo "-"; } ?></div>
 								</div> 
 								<div class="grid_animal_odd" style="display:none;">
 									<div class="grid_animal_name">Weaning Weight:</div>
-									<div class="grid_animal_value"><?php if(!empty($weaning_weight)){ echo $weaning_weight; }else{ echo "-"; } ?></div>
+									<div class="grid_animal_value"><?php if(!empty($weaning_weight)){ echo $weaning_weight." KG"; }else{ echo "-"; } ?></div>
 								</div> 
 								<div class="grid_animal_odd">
 									<div class="grid_animal_name">Yearling Weight:</div>
-									<div class="grid_animal_value"><?php if(!empty($yearling_weight)){ echo $yearling_weight; }else{ echo "-"; } ?></div>
+									<div class="grid_animal_value"><?php if(!empty($yearling_weight)){ echo $yearling_weight." KG"; }else{ echo "-"; } ?></div>
 								</div> 
 								<div class="grid_animal_even">
 									<div class="grid_animal_name">Expected Sale Weight:</div>
-									<div class="grid_animal_value"><?php if(!empty($expecated_sale_weight)){ echo $expecated_sale_weight; }else{ echo "-"; } ?></div>
+									<div class="grid_animal_value"><?php if(!empty($expecated_sale_weight)){ echo $expecated_sale_weight." KG"; }else{ echo "-"; } ?></div>
 								</div> 
 								<div class="grid_animal_odd">
 									<div class="grid_animal_name">Average Daily Gain:</div>
-									<div class="grid_animal_value"><?php if(!empty($daily_gain_weight)){ echo $daily_gain_weight; }else{ echo "-"; } ?></div>
+									<div class="grid_animal_value"><?php if(!empty($daily_gain_weight)){ echo $daily_gain_weight." KG"; }else{ echo "-"; } ?></div>
 								</div>
 								<div class="grid_animal_even">
 									<div class="grid_animal_name">Sex:</div>
@@ -125,20 +125,25 @@ $dam_third_genration_four  = get_post_meta(get_the_ID(),'_auction_dam_third_genr
 							</a>	
 						</div>	
 					<?php } ?>	
-					<div class="sire-heading"><h4>Sire</h4></div>
-					<div class="sire-text"><?php if(!empty($sire_text)){ echo $sire_text; }else{ echo "-"; } ?></div>
-					<hr>
-					<div class="generation-heading"><h4>2nd Generation</h4></div>
-					<div class="generation-text"><?php if(!empty($sire_second_gen_text_one)){ echo $sire_second_gen_text_one;}else{ echo "-"; } ?></div>
-					<div class="generation-text"><?php if(!empty($sire_second_gen_text_two)){ echo $sire_second_gen_text_two;}else{ echo "-"; } ?></div>
-					<hr>
-					<div class="generation-heading"><h4>3rd Generation</h4></div>
-					<div class="generation-text"><?php if(!empty($third_genration_one)){ echo $third_genration_one;}else{ echo "-"; } ?></div>
-					<div class="generation-text"><?php if(!empty($third_genration_two)){ echo $third_genration_two;}else{ echo "-"; } ?></div>
-					<hr>
-					<div class="generation-heading"><h4>3rd Generation</h4></div>
-					<div class="generation-text"><?php if(!empty($third_genration_three)){ echo $third_genration_three;}else{ echo "-"; } ?></div>
-					<div class="generation-text"><?php if(!empty($third_genration_four)){ echo $third_genration_four;}else{ echo "-"; } ?></div>
+					<div class="grid_generation_odd">
+						<div class="sire-heading"><h4>Sire</h4></div>
+						<div class="sire-text"><?php if(!empty($sire_text)){ echo $sire_text; }else{ echo "-"; } ?></div>
+					</div>					
+					<div class="grid_generation_even">
+						<div class="generation-heading"><h4>2nd Generation</h4></div>
+						<div class="generation-text"><?php if(!empty($sire_second_gen_text_one)){ echo $sire_second_gen_text_one;}else{ echo "-"; } ?></div>
+						<div class="generation-text"><?php if(!empty($sire_second_gen_text_two)){ echo $sire_second_gen_text_two;}else{ echo "-"; } ?></div>
+					</div>					
+					<div class="grid_generation_odd">
+						<div class="generation-heading"><h4>3rd Generation</h4></div>
+						<div class="generation-text"><?php if(!empty($third_genration_one)){ echo $third_genration_one;}else{ echo "-"; } ?></div>
+						<div class="generation-text"><?php if(!empty($third_genration_two)){ echo $third_genration_two;}else{ echo "-"; } ?></div>
+					</div>					
+					<div class="grid_generation_even">
+						<div class="generation-heading"><h4>3rd Generation</h4></div>
+						<div class="generation-text"><?php if(!empty($third_genration_three)){ echo $third_genration_three;}else{ echo "-"; } ?></div>
+						<div class="generation-text"><?php if(!empty($third_genration_four)){ echo $third_genration_four;}else{ echo "-"; } ?></div>
+					</div>	
 				</div>			
 		</div>	
 		<div class="col-lg-3 col-sm-6 ">
@@ -151,20 +156,25 @@ $dam_third_genration_four  = get_post_meta(get_the_ID(),'_auction_dam_third_genr
 							</a>	
 						</div>
 					<?php } ?>
-					<div class="dam-heading"><h4>Dam</h4></div>
-					<div class="dam-text"><?php if(!empty($dam_text)){ echo $dam_text; }else{ echo "-"; } ?></div>
-					<hr>
-					<div class="generation-heading"><h4>2nd Generation</h4></div>
-					<div class="generation-text"><?php if(!empty($dam_second_gen_text_one)){ echo $dam_second_gen_text_one;}else{ echo "-"; } ?></div>
-					<div class="generation-text"><?php if(!empty($dam_second_gen_text_two)){ echo $dam_second_gen_text_two;}else{ echo "-"; } ?></div>
-					<hr>
-					<div class="generation-heading"><h4>3rd Generation</h4></div>
-					<div class="generation-text"><?php if(!empty($dam_third_genration_one)){ echo $dam_third_genration_one;}else{ echo "-"; } ?></div>
-					<div class="generation-text"><?php if(!empty($dam_third_genration_two)){ echo $dam_third_genration_two;}else{ echo "-"; } ?></div>
-					<hr>
-					<div class="generation-heading"><h4>3rd Generation</h4></div>
-					<div class="generation-text"><?php if(!empty($dam_third_genration_three)){ echo $dam_third_genration_three;}else{ echo "-"; } ?></div>
-					<div class="generation-text"><?php if(!empty($dam_third_genration_four)){ echo $dam_third_genration_four;}else{ echo "-"; } ?></div>
+					<div class="grid_generation_odd">
+						<div class="dam-heading"><h4>Dam</h4></div>
+						<div class="dam-text"><?php if(!empty($dam_text)){ echo $dam_text; }else{ echo "-"; } ?></div>
+					</div>					
+					<div class="grid_generation_even">
+						<div class="generation-heading"><h4>2nd Generation</h4></div>
+						<div class="generation-text"><?php if(!empty($dam_second_gen_text_one)){ echo $dam_second_gen_text_one;}else{ echo "-"; } ?></div>
+						<div class="generation-text"><?php if(!empty($dam_second_gen_text_two)){ echo $dam_second_gen_text_two;}else{ echo "-"; } ?></div>
+					</div>					
+					<div class="grid_generation_odd">
+						<div class="generation-heading"><h4>3rd Generation</h4></div>
+						<div class="generation-text"><?php if(!empty($dam_third_genration_one)){ echo $dam_third_genration_one;}else{ echo "-"; } ?></div>
+						<div class="generation-text"><?php if(!empty($dam_third_genration_two)){ echo $dam_third_genration_two;}else{ echo "-"; } ?></div>
+					</div>					
+					<div class="grid_generation_even">
+						<div class="generation-heading"><h4>3rd Generation</h4></div>
+						<div class="generation-text"><?php if(!empty($dam_third_genration_three)){ echo $dam_third_genration_three;}else{ echo "-"; } ?></div>
+						<div class="generation-text"><?php if(!empty($dam_third_genration_four)){ echo $dam_third_genration_four;}else{ echo "-"; } ?></div>
+					</div>	
 				</div>		
 		</div>
 		</div>	

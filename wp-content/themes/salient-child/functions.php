@@ -36,7 +36,7 @@ function woo_add_custom_general_fields() {
   echo '
     <script>
         jQuery(function($){
-            $("#_auction_date_of_birth").datepicker({ changeYear: true,dateFormat: "yy-mm-dd"});
+           // $("#_auction_date_of_birth").datepicker({ changeYear: true});
 			 //$("#_auction_dates_from").datepicker({ changeYear: true});
 			  //$("#_auction_dates_to").datepicker({ changeYear: true});
         });
@@ -520,4 +520,5 @@ function getYoutubeEmbedUrl($url)
     }
 	return $finalUrl;
 }
+
 ?>

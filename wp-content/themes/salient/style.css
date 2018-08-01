@@ -11293,6 +11293,25 @@ body[data-is="minimal"] .lines, body[data-is="minimal"] .lines:before, body[data
 	width:100%;
 	
 }
+.grid_generation_odd{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px ;
+    padding-left: 10px ;
+    background-color: #f2f2f2;
+	float:left;
+	width:100%;
+}
+.grid_generation_even{
+	padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px ;
+    padding-left: 10px ;
+    background-color: #FCFCFC;
+	float:left;
+	width:100%;
+	
+}
 .grid_animal_name{
 	float: left;
     display: inline-block;
@@ -11309,7 +11328,7 @@ body[data-is="minimal"] .lines, body[data-is="minimal"] .lines:before, body[data
 	color:#747474;
 }
 .sire-block{
-	background-color:#f0f0f0;
+	/*background-color:#f0f0f0;*/
 	border-radius: 3px;
 	height: 100%;
 	width: 100%;
@@ -11334,14 +11353,14 @@ body[data-is="minimal"] .lines, body[data-is="minimal"] .lines:before, body[data
 	width:100%;height:180px;
 }
 .sire-text{
-font-size:15px;color:#676767;line-height:26px;padding-bottom:20px;
+font-size:15px;color:#818282;line-height:26px;padding-bottom:20px;
 }
 .generation-text{
-	font-size:15px;color:#676767;line-height:26px;padding-bottom:20px;
+	font-size:15px;color:#818282;line-height:26px;padding-bottom:20px;
 }
 
 .dam-block{
-	background-color:#f0f0f0;
+	/*background-color:#f0f0f0;*/
 	border-radius: 3px;
 	height: 100%;
 	width: 100%;
