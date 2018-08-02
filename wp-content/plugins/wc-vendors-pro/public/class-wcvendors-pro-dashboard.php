@@ -263,7 +263,7 @@ class WCVendors_Pro_Dashboard {
 
 		if ( empty( $product_ids )) $coupons_disabled = true; 
 		
-		if ( ! $products_disabled ) $quick_links['product'] 		= array( 'url' => apply_filters( 'wcv_add_product_url', self::get_dashboard_page_url( $add_product_link[ 'url_path' ] ) ),	 'label' => __( 'Add Product', 'wcvendors-pro' )  );
+		if ( ! $products_disabled ) $quick_links['product'] 		= array( 'url' => apply_filters( 'wcv_add_product_url', self::get_dashboard_page_url( $add_product_link[ 'url_path' ] ) ),	 'label' => __( 'Add Listing', 'wcvendors-pro' )  );
 		if ( ! $coupons_disabled ) 	$quick_links['shop_coupon'] 	= array( 'url' => self::get_dashboard_page_url( 'shop_coupon/edit' ), 	'label' => __( 'Add Coupon', 'wcvendors-pro' )  ); 
 
 		if ( $lock_edit_products ) unset( $quick_links['product'] ); 
@@ -300,7 +300,7 @@ class WCVendors_Pro_Dashboard {
 
 		$this->dashboard_pages[ 'product' ] = array( 
 			'slug'			=> 'product', 
-			'label'			=> __('Products', 'wcvendors-pro' ), 
+			'label'			=> __('Listings', 'wcvendors-pro' ), 
 			'actions'		=> array( 
 								'edit' 		=> __(' Edit', 'wcvendors-pro' ), 
 								'duplicate' => __(' Duplicate', 'wcvendors-pro' ), 

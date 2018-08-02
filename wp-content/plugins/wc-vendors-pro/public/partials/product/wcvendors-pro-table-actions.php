@@ -42,7 +42,7 @@
 <div class="wcv_actions wcv-cols-group"> 
 	<div class="all-50">
 	<?php foreach ( $template_overrides as $key => $template_data ) : ?>
-		<a href="<?php echo $template_data[ 'url' ]; ?>" class="wcv-button button"><?php echo sprintf( __( 'Add %s ', 'wcvendors-pro' ), $template_data[ 'label' ] );  ?></a>
+		<a href="<?php echo $template_data[ 'url' ]; ?>" class="wcv-button button"><?php echo sprintf( __( 'Add Listing ', 'wcvendors-pro' ), $template_data[ 'label' ] );  ?></a>
 	<?php endforeach; ?>
 	</div>
 

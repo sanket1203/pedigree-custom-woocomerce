@@ -60,6 +60,30 @@ list-style-type: none;
 .weight-predictor{
 color:green !important;position: relative;float: left;margin-top: -40px !important;margin-left: 24px;
 }
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('fonts/glyphicons-halflings-regular.eot');
+    src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg')
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1
+}
+.datetimepicker table tr td.day{background:#e6e6e6;border:1px solid #fff;}
+.icon-arrow-right:before{content:"\e092";color:#000;}
+.icon-arrow-left:before{content:"\e091";color:#000;}
+.datetimepicker table tr td.active.active, .datetimepicker table tr td.active:hover.active{background-color:#fbf9ee !important;border:1px solid #fcefa1 !important;background-image:#fbf9ee !important;}
+ul.page-numbers{margin:0 0 10px 0;}
+ul.page-numbers li{display:inline-block;}
+.woocommerce-pagination{padding-bottom:5px !important;}
+.wcv-tabs .tabs-nav li{list-style-type:none;}
+.select2-container .select2-choice{height:38px;line-height:38px;padding:4px 0 0 8px;}
 @media screen and (max-width: 640px) and (min-width: 321px)
 {
 	.weight-predictor{

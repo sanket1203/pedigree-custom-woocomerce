@@ -404,7 +404,7 @@ class WCVendors_Pro_Product_Form {
 		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_product_title', array( 
 		 	'post_id' 			=> $post_id, 
 		 	'id'	 			=> 'post_title', 
-		 	'label' 			=> __( 'Product Name', 'wcvendors-pro' ),
+		 	'label' 			=> __( 'Animal Pedigree Name', 'wcvendors-pro' ),
 		 	'value' 			=> $product_title, 
 		 	'custom_attributes' => array( 
 		 			'data-rules' => 'required|max_length[100]', 
@@ -458,7 +458,7 @@ class WCVendors_Pro_Product_Form {
 			 WCVendors_Pro_Form_Helper::textarea( apply_filters( 'wcv_product_short_description', array( 
 			 	'post_id'			=> $post_id, 
 			 	'id' 				=> 'post_excerpt', 
-			 	'label'	 			=> __( 'Product Short Description', 'wcvendors-pro' ), 
+			 	'label'	 			=> __( 'Animal Short Description', 'wcvendors-pro' ), 
 			 	'placeholder' 		=> __( 'Please add a brief description of your product here', 'wcvendors-pro' ), 
 			 	'value' 	=> $product_short_description, 
 			 	// 'custom_attributes' => $custom_attributes

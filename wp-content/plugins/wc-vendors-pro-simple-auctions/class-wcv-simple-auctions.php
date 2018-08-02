@@ -307,13 +307,6 @@ class WC_Vendors_Simple_Auctions {
 	 * @since 1.0.0 
 	*/
 	public function auctions_form( $post_id ){ 
-	// load jquery-ui-datetimepicker style 
-
-?>
-<link rel='stylesheet' id='wcv-datetimepicker-style-css' href='<?php echo get_stylesheet_directory_uri(); ?>/jquery.datetimepicker.min.css' type='text/css' media='all' />
-<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/jquery.datetimepicker.full.js'></script>
-<?php
-		
 			
 		echo '<div class="wcv-product-auction auction_product_data tabs-content" id="auction">'; 
 
@@ -360,8 +353,8 @@ class WC_Vendors_Simple_Auctions {
 			'id' 			=> '_auction_start_price', 
 			'label' 		=> __( 'Start Price', 'wc_simple_auctions' ) . ' (' . get_woocommerce_currency_symbol() . ')', 
 			'data_type' 		=> 'price', 
-			'wrapper_start' 	=> '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-100 small-100">', 
-			'wrapper_end' 		=>  '</div></div>'
+			'wrapper_start' 	=> '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-25 small-100">', 
+			'wrapper_end' 		=>  '</div>'
 			) )
 		);
 
@@ -371,8 +364,8 @@ class WC_Vendors_Simple_Auctions {
                 'id'                    => '_auction_bid_increment',
                 'label'                 => __( 'Bid increment', 'wc_simple_auctions' ) . ' (' . get_woocommerce_currency_symbol() . ')',
                 'data_type'             => 'price',
-                'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-100 small-100">',
-                'wrapper_end'           =>  '</div></div>'
+                'wrapper_start'         => '<div class="all-25 small-100">',
+                'wrapper_end'           =>  '</div>'
                 ) )
         );
 
@@ -382,8 +375,8 @@ class WC_Vendors_Simple_Auctions {
 	            'id'                    => '_auction_reserved_price',
 	            'label'                 => __( 'Reserve price', 'wc_simple_auctions' ) . ' (' . get_woocommerce_currency_symbol() . ')',
 	            'data_type'             => 'price',
-	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-100 small-100">',
-	            'wrapper_end'           =>  '</div></div>'
+	            'wrapper_start'         => '<div class="all-25 small-100">',
+	            'wrapper_end'           =>  '</div>'
 	            ) )
 	    );
 
@@ -393,7 +386,7 @@ class WC_Vendors_Simple_Auctions {
 	            'id'                    => '_buy_it_now_price',
 	            'label'                 => __( 'Buy it now price', 'wc_simple_auctions' ) . ' (' . get_woocommerce_currency_symbol() . ')',
 	            'data_type'             => 'price',
-	            'wrapper_start'         => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-100 small-100">',
+	            'wrapper_start'         => '<div class="all-25 small-100">',
 	            'wrapper_end'           =>  '</div></div>'
 	            ) )
 	    );
@@ -402,8 +395,8 @@ class WC_Vendors_Simple_Auctions {
 			'post_id'		=> $post_id, 
 			'id' 			=> '_auction_dates_from', 
 			'label' 		=> __( 'From', 'wcvendors-pro-simple-auctions' ), 
-			'class'			=> 'wcv-datetimepicker', 
-			'placeholder'	=> __( 'From&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD',  
+			 
+			'placeholder'	=> __( 'From&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD H:i',  
 			'wrapper_start' => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100 ">',
 			'wrapper_end' 	=> '</div>', 
 			'custom_attributes' => array(
@@ -417,9 +410,8 @@ class WC_Vendors_Simple_Auctions {
 		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_end_date', array( 
 			'post_id'			=> $post_id, 
 			'id' 				=> '_auction_dates_to', 
-			'label' 			=> __( 'To1', 'wcvendors-pro-simple-auctions' ), 
-			'class'				=> 'wcv-datetimepicker', 
-			'placeholder'		=> __( 'To&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD', 
+			'label' 			=> __( 'To1', 'wcvendors-pro-simple-auctions' ), 			
+			'placeholder'		=> __( 'To&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD H:i', 
 			'wrapper_start' 	=> '<div class="all-50 small-100">',
 			'wrapper_end' 		=> '</div></div>', 
 			'desc_tip'			=> true, 
@@ -693,9 +685,40 @@ class WC_Vendors_Simple_Auctions {
 		
 		
 		echo '</div>'; 
+		
+		?>
+<link rel='stylesheet' id='wcv-datetimepicker-style-css1' href='<?php echo get_template_directory_uri(); ?>/css/bootstrap.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wcv-datetimepicker-style-css2' href='<?php echo get_stylesheet_directory_uri(); ?>/bootstrap-datetimepicker.min.css' type='text/css' media='all' />
+
+<script type='text/javascript' src='<?php echo get_stylesheet_directory_uri(); ?>/bootstrap-datetimepicker.js'></script>
+<style>
+[class*=" icon-"]{background:none !important;}
+</style>
+<script>
+jQuery(function($){
+	 jQuery('ul.tabs-nav li').removeClass('active');
+ 	 jQuery('ul.tabs-nav li:nth-child(3)').addClass('active');
+	 jQuery('.wcv-product-auction').removeClass('hide-all');
+	 jQuery('.wcv-product-auction').addClass('active');
+
+	 $("#_auction_dates_from").datetimepicker_my({
+					autoclose: 1,
+	 });
+	 $("#_auction_dates_to").datetimepicker_my({
+					autoclose: 1,
+	 });
+});
+</script>
+<?php
 
 
-	} // simple_auctions_form() 
+	}
+	
+	// add a priority if you need it
+	// add_action('wp_enqueue_scripts','dequeue_my_css',100);
+
+
+	// simple_auctions_form() 
 
 
 	/**

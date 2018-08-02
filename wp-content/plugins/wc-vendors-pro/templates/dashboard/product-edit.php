@@ -13,7 +13,7 @@
  *   
 */
 
-$title 		= ( is_numeric( $object_id ) ) ? __('Save Changes', 'wcvendors-pro') : __('Add Product', 'wcvendors-pro'); 
+$title 		= ( is_numeric( $object_id ) ) ? __('Save Changes', 'wcvendors-pro') : __('Add Listing', 'wcvendors-pro'); 
 $product 	= ( is_numeric( $object_id ) ) ? wc_get_product( $object_id ) : null;
 $post 		= ( is_numeric( $object_id ) ) ? get_post( $object_id ) : null;
 
@@ -103,6 +103,7 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 			'wrapper_start' => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-100 small-100 ">',
 			'wrapper_end' 	=> '</div></div>', 
 			'custom_attributes' => array(
+			    'autocomplete' => 'off',
 				'required' => "",
 				'maxlenth' 	=> '10', 
 				'pattern' 	=> '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])'
