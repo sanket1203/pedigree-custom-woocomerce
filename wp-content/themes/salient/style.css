@@ -11348,6 +11348,8 @@ body[data-is="minimal"] .lines, body[data-is="minimal"] .lines:before, body[data
  margin-bottom: 4px;
  text-align: left;
  font-size: 30px;
+  float: left;
+ width: 100%;
 }
 .sire-image-lightbox img{
 	width:100%;height:180px;
@@ -11379,6 +11381,8 @@ font-size:15px;color:#818282;line-height:26px;padding-bottom:20px;
  margin-bottom: 4px;
  text-align: left;
  font-size: 30px;
+ float: left;
+ width: 100%;
 }
 .dam-image-lightbox img{
 	width:100%;height:180px;

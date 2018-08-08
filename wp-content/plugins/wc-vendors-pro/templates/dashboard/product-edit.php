@@ -31,7 +31,7 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 <h2><?php echo $title; ?></h2>
 <style>
 .sexlabel{
-	padding:0px 10px 0px 24px;font-size: 18px;margin-top: -8px;float: left;
+	padding:0px 10px 0px 24px;font-size: 18px;margin-top: -8px;
 }
 </style>
 <!-- Product Edit Form -->
@@ -44,8 +44,11 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 		  <script>
 			jQuery(function($){
 				$("#_auction_date_of_birth").datepicker({ changeYear: true, dateFormat: 'yy-mm-dd'});
+				$('.hide_if_variable').remove();
+				$('ul.tabs-nav').remove();
+				
 			});
-		 </script>';
+		 </script>
 		<?php
 		
 		// <!-- KC-new field animal id tag -->
@@ -87,7 +90,7 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 					<label for="_auction_animal_sex_male" class="sexlabel">Male</label>
 					</div>
 					<div style="display:inline-block;padding: 5px 0 5px 4px;">
-					<input style="width:auto;" type="radio" id="_auction_animal_sex_female" name="_auction_animal_sex" value="female" '.$fchecked.' >
+					<input style="width:auto;margin-top:10px;" type="radio" id="_auction_animal_sex_female" name="_auction_animal_sex" value="female" '.$fchecked.' >
 					<lable for="_auction_animal_sex_female" class="sexlabel">Female</label>
 					</div>
 				</div>
@@ -103,7 +106,7 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 			'wrapper_start' => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-100 small-100 ">',
 			'wrapper_end' 	=> '</div></div>', 
 			'custom_attributes' => array(
-			    'autocomplete' => 'off',
+ 		        'autocomplete' => 'off',
 				'required' => "",
 				'maxlenth' 	=> '10', 
 				'pattern' 	=> '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])'
@@ -154,12 +157,12 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 		?>	
 	</div>
 
-	<hr />
+	<!-- <hr /> -->
 	
 	<div class="all-100">
   <?php do_action( 'wcv_before_product_type', $object_id ); ?>
 		<!-- Product Type -->
-		<div class="wcv-product-type"> 
+		<div class="wcv-product-type" style="display:none;"> 
 			<?php WCVendors_Pro_Product_Form::product_type( $object_id ); ?>
 		</div>
 	</div>
@@ -303,7 +306,7 @@ $post_status				= ( isset($product) && null !== $product ) ? $post->post_status 
 
 			<?php do_action( 'wcv_before_variations_tab', $object_id ); ?>
 
-			<div class="wcv_product_variations tabs-content" id="variations"> 
+			<div class="wcv_product_variations tabs-content" id="variations" style="display:none;"> 
 
 				<?php WCVendors_Pro_Product_Form::product_variations( $object_id ); ?>
 

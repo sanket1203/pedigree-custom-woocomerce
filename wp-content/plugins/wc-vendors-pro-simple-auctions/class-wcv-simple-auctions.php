@@ -311,7 +311,7 @@ class WC_Vendors_Simple_Auctions {
 		echo '<div class="wcv-product-auction auction_product_data tabs-content" id="auction">'; 
 
 		// Item Condition
-		WCVendors_Pro_Form_Helper::select( apply_filters( 'wcv_simple_auctions_item_condition', array( 
+	/*	WCVendors_Pro_Form_Helper::select( apply_filters( 'wcv_simple_auctions_item_condition', array( 
 				'post_id'			=> $post_id, 
 				'id' 				=> '_auction_item_condition', 
 				'class'				=> 'select2',
@@ -337,6 +337,7 @@ class WC_Vendors_Simple_Auctions {
                 'options'                       => array( 'normal' => __('Normal', 'wc_simple_auctions'), 'reverse'=> __('Reverse', 'wc_simple_auctions') )
                 ) )
         );
+		*/
 
 		// Proxy Options
 		WCVendors_Pro_Form_Helper::input( apply_filters( 'wcv_simple_auctions_proxy_bidding', array( 
@@ -396,13 +397,12 @@ class WC_Vendors_Simple_Auctions {
 			'id' 			=> '_auction_dates_from', 
 			'label' 		=> __( 'From', 'wcvendors-pro-simple-auctions' ), 
 			 
-			'placeholder'	=> __( 'From&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD H:i',  
+			'placeholder'	=> __( 'From&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD',  
 			'wrapper_start' => '<div class="wcv-cols-group wcv-horizontal-gutters"><div class="all-50 small-100 ">',
 			'wrapper_end' 	=> '</div>', 
 			'custom_attributes' => array(
-				'autocomplete' => 'off',
-				'maxlenth' 	=> '10', 
-				'pattern' 	=> '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])'
+				'autocomplete' => 'off',				
+				'pattern' 	=> '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])[ ](0[0-9]|1[0-9]|2[0-4]):(0[0-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9])'
 				),
 			) )
 		);
@@ -411,14 +411,13 @@ class WC_Vendors_Simple_Auctions {
 			'post_id'			=> $post_id, 
 			'id' 				=> '_auction_dates_to', 
 			'label' 			=> __( 'To1', 'wcvendors-pro-simple-auctions' ), 			
-			'placeholder'		=> __( 'To&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD H:i', 
+			'placeholder'		=> __( 'To&hellip;', 'placeholder', 'wcvendors-pro-simple-auctions' ). ' YYYY-MM-DD', 
 			'wrapper_start' 	=> '<div class="all-50 small-100">',
 			'wrapper_end' 		=> '</div></div>', 
 			'desc_tip'			=> true, 
 			'custom_attributes' => array(
-				'autocomplete' => 'off',
-				'maxlenth' 		=> '10', 
-				'pattern' 		=> '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])'
+				'autocomplete' => 'off',				 
+				'pattern' 		=> '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])[ ](0[0-9]|1[0-9]|2[0-4]):(0[0-9]|1[0-9]|2[0-9]|3[0-9]|4[0-9]|5[0-9])'
 				),
 			) )
 		);
