@@ -67,7 +67,7 @@ $dam_third_genration_four  = get_post_meta(get_the_ID(),'_auction_dam_third_genr
 <div class="vc_row-fluid row">
 	<div class="col-lg-12 col-sm-12 row">
 		<div class="row">
-				<div class="col-lg-6 col-sm-6 ">
+				<div class="col-lg-6 col-sm-12 col-xs-12">
 						<?php if(!empty($videourl)){ ?>
 							<div class="iframe-embed col-lg-12 col-sm-12">
 								<iframe src="<?php echo $videourl; ?>" width="100%" height="100%" style="position:relative;width:100%; height:100%;">
@@ -75,7 +75,7 @@ $dam_third_genration_four  = get_post_meta(get_the_ID(),'_auction_dam_third_genr
 							</div>
 						<?php } ?>	
 													
-						<div class="col-lg-12 col-sm-12">
+						<div class="col-lg-12 col-sm-12 col-xs-12">
 							<div class="animal-info_single">
 								<div class="grid_animal_odd">
 									<div class="grid_animal_name">Date Of Birth:</div>
@@ -115,7 +115,7 @@ $dam_third_genration_four  = get_post_meta(get_the_ID(),'_auction_dam_third_genr
 				</div>		
 		
 		
-			 <div class="col-lg-3 col-sm-6 ">			
+			 <div class="col-lg-3 col-sm-6 col-xs-12">			
 			 	 <div class="sire-block">
 					<?php if(!empty($sire_image)){ ?>
 						<div class="sire-heading"><h2>Sire</h2></div>
@@ -146,7 +146,7 @@ $dam_third_genration_four  = get_post_meta(get_the_ID(),'_auction_dam_third_genr
 					</div>	
 				</div>			
 		</div>	
-		<div class="col-lg-3 col-sm-6 ">
+		<div class="col-lg-3 col-sm-6 col-xs-12 ">
 				<div class="dam-block">
 					<?php if(!empty($dam_image)){ ?>
 						<div class="dam-heading"><h2>Dam</h2></div>	

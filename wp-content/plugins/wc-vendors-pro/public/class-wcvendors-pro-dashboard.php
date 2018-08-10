@@ -634,7 +634,7 @@ class WCVendors_Pro_Dashboard {
 		
 		if ( !$viewstore_disabled ) { 
 			$store_url 		= apply_filters( 'wcv_dashboard_view_store_url', array( 'label' => __( 'View Store', 'wcvendors-pro' ),'slug' => WCVendors_Pro_Vendor_Controller::get_vendor_store_url( get_current_user_id() ) ) ); 
-			$pages[ 'view_store' ] = $store_url; 
+			//$pages[ 'view_store' ] = $store_url; 
 		} 
 
 		$pages 		= array_merge( array( 'dashboard_home' => $dashboard_home ), $pages ); 
