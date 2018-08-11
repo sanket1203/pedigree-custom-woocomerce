@@ -11395,4 +11395,5 @@ font-size:15px;color:#676767;line-height:26px;padding-bottom:20px;
 header#top .container .row{margin:0;}
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 .iframe-embed{height:200px;}
+.wcv-navigation ul.menu.horizontal li a{padding:.5em .5em;}
 }

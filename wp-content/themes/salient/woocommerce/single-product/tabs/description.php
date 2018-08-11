@@ -79,7 +79,7 @@ $dam_third_genration_four  = get_post_meta(get_the_ID(),'_auction_dam_third_genr
 							<div class="animal-info_single">
 								<div class="grid_animal_odd">
 									<div class="grid_animal_name">Date Of Birth:</div>
-									<div class="grid_animal_value"><?php if(!empty($dateofbirth)){ echo $dateofbirth; }else{ echo "-"; } ?></div>
+									<div class="grid_animal_value"><?php if(!empty($dateofbirth)){ echo date('d-m-Y',strtotime($dateofbirth)); }else{ echo "-"; } ?></div>
 								</div> 
 								<div class="grid_animal_even">
 									<div class="grid_animal_name">Birth Weight:</div>

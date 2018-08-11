@@ -35,8 +35,9 @@ function woo_add_custom_general_fields() {
   global $woocommerce, $post;
   echo '
     <script>
-        jQuery(function($){
-           // $("#_auction_date_of_birth").datepicker({ changeYear: true});
+	jQuery(function($){
+            $("#_auction_date_of_birth").datepicker({ changeYear: true,dateFormat:"dd-mm-yy"});
+        
 			 //$("#_auction_dates_from").datepicker({ changeYear: true});
 			  //$("#_auction_dates_to").datepicker({ changeYear: true});
         });
@@ -59,6 +60,7 @@ function woo_add_custom_general_fields() {
 				'placeholder' => '',
 				'desc_tip'    => 'true',
 				'class'	 	  => 'datetimepicker',
+				'custom_attributes' => array('autocomplete' =>'off'),
 				'description' => __( 'Select the date of birth.', 'woocommerce' ) 
 			)
 		);
@@ -519,6 +521,26 @@ function getYoutubeEmbedUrl($url)
         $finalUrl.='https://www.youtube.com/embed/'.$videoId;
     }
 	return $finalUrl;
+}
+
+add_action( 'save_post', 'my_save_post_function', 10, 3 );
+
+function my_save_post_function( $post_ID, $post, $update ) {
+  global $wpdb;
+  $postname = get_post_type();
+  if($postname == 'product'){	    
+		$querystr = " UPDATE `".$wpdb->posts."` SET `post_content` = 'test content' WHERE `tsvu_posts`.`ID` = ".$post_ID." ";
+		$pageposts = $wpdb->get_results($querystr, OBJECT);
+
+	
+	if (isset($_POST['_auction_sire_image'])){		
+		update_post_meta( $post_ID, '_auction_sire_image', stripslashes( $_POST['_auction_sire_image'] ) );
+	}
+	if (isset($_POST['_auction_dam_image'])){
+		update_post_meta( $post_ID, '_auction_dam_image', stripslashes( $_POST['_auction_dam_image'] ) );
+	}
+			
+  }
 }
 
 ?>
