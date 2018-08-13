@@ -529,7 +529,7 @@ function my_save_post_function( $post_ID, $post, $update ) {
   global $wpdb;
   $postname = get_post_type();
   if($postname == 'product'){	    
-		$querystr = " UPDATE `".$wpdb->posts."` SET `post_content` = 'test content' WHERE `tsvu_posts`.`ID` = ".$post_ID." ";
+		$querystr = " UPDATE `".$wpdb->posts."` SET `post_content` = 'Product' WHERE `tsvu_posts`.`ID` = ".$post_ID." ";
 		$pageposts = $wpdb->get_results($querystr, OBJECT);
 
 	
